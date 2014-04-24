@@ -1,0 +1,39 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/libexec/gnome-settings-daemon >/dev/null; then
+#  /usr/libexec/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+
+##### set the keyboard to use us and bg phonetic layouts
+setxkbmap -layout 'us,bg' -variant ',phonetic' -option 'grp:alt_shift_toggle,grp_led:scroll'
+#nitrogen --restore &
+
+##### use feh to setup the desktop wallpaper properly
+feh --bg-scale /storage/data/CopyCom/Copy/Backups/wallpapers/openbox_wallpaper_by_ed1w2ard-d30tv1l.jpg
+
+##### start tint2 taskbar
+tint2 &
+
+##### start conky system nonitoring GUI app
+conky &
+
+##### start wicd, the GTK verion, to be able to connect with wifi
+wicd-gtk &
+
+##### start firefox, messengers and tilda console app ;-))))
+/storage/Soft/PortableApps/firefox/firefox &
+pidgin &
+skype &
+tilda &

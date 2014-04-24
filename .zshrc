@@ -12,6 +12,8 @@ export BROWSER="firefox"
 export EDITOR="vim"
 #export PAGER="vimpager"
 export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin"
+export MAS_KT="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas-kt"
+export MAS="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas"
 
 #-----------------------------
 # Dircolors
@@ -58,7 +60,7 @@ export MYSQL_PS1="mysql (\d)> "
 export TERM="xterm-256color"
 
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
-alias xlock='xlock -mode matrix'
+#alias xlock='xlock -mode matrix'
 
 #------------------------------
 # ShellFuncs

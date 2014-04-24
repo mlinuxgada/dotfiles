@@ -9,4 +9,4 @@ export TERM="xterm-256color"
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias xlock='xlock -mode matrix'
 alias tmux="TERM=screen-256color-bce tmux"
-
+alias ls="ls -lah"
