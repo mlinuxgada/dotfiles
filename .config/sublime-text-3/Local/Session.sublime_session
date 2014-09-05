@@ -1,0 +1,1107 @@
+{
+	"folder_history":
+	[
+		"/storage_dev/projects/www/mas-kt",
+		"/storage/www/mas-kt"
+	],
+	"last_version": 3047,
+	"last_window_id": 9,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 352.0,
+				"selected_items":
+				[
+					[
+						"the",
+						"Themr: List themes"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"theme",
+						"Themr: List themes"
+					],
+					[
+						"them",
+						"Themr: List themes"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"word",
+						"Word Wrap: Toggle"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mlinuxgada/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/mlinuxgada/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/storage/data/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/08/2014.08.28",
+				"/storage/data/Copy/Work/UpshotCommerce/Workflow/reports",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/revisions",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/deploy.sql",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/sites.sql",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/Diaries/2014/08/2014.08.29",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/reports",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/revisions",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/deploy.sql",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/sites.sql",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/08/2014.08.28",
+				"/storage/tmp/print_invoices_NG64150009_2014-08-25__06_04_00.pdf",
+				"/storage_dev/projects/www/mas-kt/heavymetal/plugins/shipping/shipping/base.php",
+				"/storage_dev/projects/www/mas-kt/heavymetal/lib/masdb/item.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/item_2014-08-15_14-18-29 missing models.csv",
+				"/tmp/report_restock_stats_2014-08-15_08-33-31.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/07/2014.07.24",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/category_descr.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/item_custom.csv",
+				"/home/mlinuxgada/.conkyrc",
+				"/home/mlinuxgada/conky_theme/readme",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/item_2014-07-16_06-29-08.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/category_descr_only.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/item_descr.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/Tea/Duty Calculator/credentials",
+				"/storage/tmp/address_ft.upshot.csv",
+				"/storage/tmp/errors.csv",
+				"/storage/tmp/address_2014-06-24_13-10-03.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/06/2014.06.26",
+				"/storage/tmp/ft_addresses.csv",
+				"/storage/tmp/address_2014-06-23_10-49-28.csv",
+				"/storage/tmp/address_2014-06-23_11-47-22.csv",
+				"/storage/tmp/freshtrends_addresses_2014-06-18_12-58-13.csv",
+				"/storage/tmp/freshtrends_addresses_2014-06-18_13-10-38.csv",
+				"/storage/tmp/address_5.csv",
+				"/storage_dev/projects/www/mas-kt/heavymetal/plugins/custom_plugin_aims/data/fixed_completed_unpaid_2014-06-02_08:17.txt",
+				"/storage/tmp/address_2014-06-19_13-39-19_old.csv",
+				"/storage/tmp/address_2014-06-19_13-44-55_new.csv",
+				"/storage/tmp/address_2014-06-19_13-40-23_new.csv",
+				"/storage/tmp/address_3.csv",
+				"/storage/tmp/address_core.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.22",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.23",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.26",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.27",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.28",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/06/2014.06.02",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/06/2014.06.03",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.21",
+				"/storage_dev/projects/www/mas-kt/heavymetal/plugins/custom_plugin_wildlife_wonders/data/stone_edge_suppliers.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/WildLifeWanders/SEOM Data to UpShot.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/WildLifeWanders/SEOM Suppliers Upshot (1).csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.20",
+				"/storage_dev/projects/www/mas-kt/heavymetal/plugins/custom_plugin_wildlife_wonders/data/objinfo.xml",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/SpeedTax/credentials",
+				"/storage_dev/projects/www/mas-kt/heavymetal/theme/tea_collection/template/plugins/locations/index.html",
+				"/storage_dev/projects/www/mas-kt/heavymetal/snippets/sql/cleanup.sql",
+				"/storage_dev/projects/www/kohana/kohana_toolbox/application/views/type/page/main.php",
+				"/storage_dev/projects/www/kohana/kohana_toolbox/application/views/header.php",
+				"/storage_dev/projects/www/mas-kt/heavymetal/lib/functions.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/03/2014.03.21",
+				"/storage_dev/projects/www/mas/heavymetal/order_summary.html",
+				"/storage_dev/projects/www/mas/heavymetal/one_page_checkout.html",
+				"/storage_dev/projects/www/mas/heavymetal/theme/tea_collection/template/item/suggestions.html",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/NaturesGarden/freshtrends_flexfields_modified.csv",
+				"/storage_dev/projects/www/mas/heavymetal/theme/mpgear/template/header.html",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/NaturesGarden/freshtrends_flexfields3.4.13.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Snippets/v3_varso_templates.html",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/failed_skus.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/missing_skus.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/flexfields.php",
+				"/storage/www/mas-kt/heavymetal/theme/wholesaleimports/template/item/parent.html",
+				"/storage/www/mas-kt/heavymetal/theme/wholesaleimports/template/item/store.html",
+				"/storage/www/mas-kt/heavymetal/lib/varso/adapter/section/item/search.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/02/2014.02.07",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/02/2014.02.10",
+				"/storage/www/mas-kt/heavymetal/lib/config.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/Feb 5 2014 Exported File T5SS.csv",
+				"/storage/www/mas-kt/heavymetal/plugins/custom_plugin_5sstore/data/objinfo.xml",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Snippets/mail",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/01/2014.01.20",
+				"/home/mlinuxgada/Downloads/backordered_items_adjustment_test.csv",
+				"/home/mlinuxgada/Downloads/backordered_items_adjustment_2014-01-28_08-03-32.csv",
+				"/storage/www/mas-kt/heavymetal/plugins/dutycalculator/cron/check_hs_codes.php",
+				"/storage/www/mas-kt/heavymetal/snippets/sql/2014/82495.sql",
+				"/storage/www/mas-kt/heavymetal/plugins/custom_plugin_tea/install/sql/2014/82344.sql",
+				"/storage/www/mas-kt/heavymetal/plugins/item_recurrence/install/sql/2009/23020.sql"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					", ",
+					"\n",
+					"dev.",
+					"bison",
+					"20AL30161",
+					".dev.mlinuxgada.info",
+					"&hs",
+					", ",
+					"I have used the Floor",
+					"conk",
+					"visualpockets",
+					";",
+					"systemd",
+					"eude",
+					".dev.mlinuxgada.info",
+					"xml",
+					"text",
+					"country",
+					".dev.mlinuxgada.info",
+					"update vars set vars.value = '' where vars.name = 'address_validation_required';\nupdate vars set vars.value = unix_timestamp() where vars.name = 'login_timeout';\nupdate `vars` set `vars`.`value` = 0 where `vars`.`name` = 'cvv_required';\nupdate vars set value = 'mas key' where name = 'hmac_key';\nupdate vars set value = 'secret key' where name = 'crypt_key';\nupdate vars set value = '' where name = 'master_server';\nupdate vars set value = '' where name = 'server.list';\nupdate vars set value = '127.0.0.1' where name = 'memcache_hostname';\nupdate vars set value = '11211' where name = 'memcache_port';\nupdate vars set value = '' where name = 'cdn_url';\nupdate vars set value = '082b4af4563446f914a71d110f759ee0bc3a05a9' where name = 'tinyws_access_key'; # mastestkey123\nupdate vars set value = 'username@makeastore.com' where name like '%email%' and value not like 'a:%' and value like '%@%';\nupdate vars set value = 'username@makeastore.com' where `name` like 'order.invoice.admin';\nupdate vars set value = '{\"reply_to\":\"\\\"DEV make-a-store.com\\\" <username@makeastore.com>\",\"buyer_reply_to\":\"\",\"buyer_bcc\":\"\",\"admin_bcc\":\"username@makeastore.com\",\"user_reply_to\":\"\"}' where `name` like 'mail';\nupdate stores set email = 'username@makeastore.com', new_order_email_list = email;\n\n# a4l\nupdate users set email = CONCAT('username-',  id, '@makeastore.com'), password = 'd651b1339a985dc215619f68f7d260e6d3ebc053', password_last_change_time = now(), `users`.`toolkit_locked` = '', `users`.`ip_allow` = null;\nupdate users set users.username = 'admin' where users.type = 'admin' and users.deleted = 0 and users.active = 1 limit 1;\n# update users set users.ip_allow = null;\nupdate orders set email = CONCAT('username-',  user_id, '@makeastore.com'), card_number = 'gNAJ4vC4+ojxlp78f51ebw==', card_holder = 'John Q Public', card_exp_date_year = 2015, card_exp_date_month = 12, card_start_month = 1, card_start_year = 2006;\nupdate orders set check_number = '', bank_name = '', routing_number = '', account_number = '';\nupdate orders set drivers_license_state = '', drivers_license = '';\nupdate wallets set cc_type = 'V', cc_num = 'gNAJ4vC4+ojxlp78f51ebw==', exp_date = '2015-12-01', card_holder = 'John Q Public', card_start_month = 1, card_start_year = 2006;\nupdate wallets set check_number = '', bank_name = '', routing_number = '', account_number = '';\nupdate wallets set drivers_license_state = '', drivers_license = '';\nupdate ebay_won_items set buyer_email = CONCAT('username-', id, '@makeastore.com');\nupdate price_alerts set email = CONCAT('username-', id, '@makeastore.com');\nupdate price_email_requests set email = CONCAT('username-', id, '@makeastore.com');\nupdate reviews set email = CONCAT('username-', id, '@makeastore.com');\nupdate testimonials set author_email = CONCAT('username-', id, '@makeastore.com');\nupdate forms set email = CONCAT('username-', id, '@makeastore.com');\nupdate rmas set email_override = CONCAT('username-', id, '@makeastore.com') where email_override is not null;\n\n\n# reset address line 1/2/3\nupdate addresses set address1='1 Fake St.', address2 = '', address3='';\nupdate orders set cardholder_address1='1 Fake St.', cardholder_address2 = '', cardholder_address3='';\nupdate packages set address1='1 Fake St.', address2 = '', address3='';\n\n# shipping\nupdate fedex_pull set email = CONCAT('username-', order_id, '@makeastore.com');\nupdate fixed_pull set email = CONCAT('username-', order_id, '@makeastore.com');\nupdate ups_pull set email = CONCAT('username-', order_id, '@makeastore.com');\nupdate usps_pull set email = CONCAT('username-', order_id, '@makeastore.com');\n\nupdate coupons set description='';\n\nupdate `vars` set `value`='' where `name` in \n('ebridge_login', 'ebridge_password', 'ebridge_user_id', \n'ebridge_partner', 'ebridge_send_cash_receipts', \n'mas_ebridge_login', 'mas_ebridge_password', \n'newgistics_username', 'newgistics_password');\n",
+					"2006",
+					"pci_to",
+					"mail",
+					"address",
+					"command",
+					"mas.misho.masbg.com",
+					"dev.mlinuxgada.info",
+					"'",
+					"misc45",
+					"amazon_feed_",
+					"misc3",
+					"misc",
+					" => ",
+					",",
+					"pass",
+					"! #2488",
+					"40S4048",
+					"53WMW11T",
+					"83409",
+					"<Code>None</Code",
+					"admin",
+					"child_col",
+					"origin",
+					"country",
+					"html",
+					"/mp/mas-kt/",
+					"   M ",
+					"|",
+					"| ",
+					"|",
+					"| ",
+					"|"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					", #",
+					", ",
+					"dev.php56.",
+					"mas-kt.misho.fbsd.lan",
+					"&hs",
+					"",
+					"', '",
+					",",
+					"wlw.mas.polina.masbg.com",
+					"sigma_dev",
+					"\\'",
+					"'misc",
+					"' => '",
+					" => ",
+					"+",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 23.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 92.0,
+				"selected_items":
+				[
+				],
+				"width": 392.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/storage/data/Copy/Work/UpshotCommerce/Workflow/revisions",
+					"settings":
+					{
+						"buffer_size": 2347,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "FROM items2suppliers left JOIN items  ON items2suppliers.item_id = items.id  inner JOIN users  ON items2suppliers.user_id = users.id \nWHERE  (`items2suppliers`.`deleted` = 0)  \nAND (`items2suppliers`.`default` = 1)  \nAND (`items`.`deleted` = 0)  \nAND (`items`.`type` <> 'parent')  \nAND (`items`.`type` <> 'bundle')  \nAND (`items`.`inventory_control` NOT IN ('no_control','backorder'))  \nAND (0   AND (`items`.`id` NOT IN ('104108','68652','69413','89399','63040','63040','63040','63210','63210','63268','63268','63277','63436','63452','63510','63650','63654','64049','64772','64781','64945','64945','64945','64949','64949','64965','64965','64966','64966','64968','64968','65429','65429','65478','65478','65577','65577','65601','65638','65668','65668','65842','65852','65974','65974','65990','66012','66014','66014','66015','66020','66058','66058','66074','66074','66074','66212','66212','66214','66214','66236','66291','66291','66308','66308','66309','66309','66318','66410','66416','66431','66470','66474','66488','66508','66606','66612','66614','66633','66634','66635','66637','66672','66688','66690','66691','66743','66743','66798','66853','66853','66881','66881','66895','66895','66899','66899','66952','66952','66955','66955','66956','66956','66957','66957','66989','66989','67090','67090','67091','67091','67100','67100','67101','67101','67246','67249','67327','67330','67336','67530','67689','67844','67844','67948','67948','67948','67966','67966','67976','67976','68025','68025','68025','68048','68048','68048','68079','68079','68084','68084','68092','68093','68093','68093','68112','68112','68156','68156','68157','68157','68158','68158','68160','68160','68161','68161','68162','68162','68167','68167','68168','68168','68228','68228','68365','68365','68368','68368','68393','68393','68445','68445','68551','68555','68728','68728','68729','68729','68750','68750','69100','69100','69129','69129','69720','72139','75431','75431','75449','75449','75510','76183','76218','76218','76259','76259','77814','77869','77872','77894','77905','77907','77908','77910','77927','77940','77969','78024','78031','78033','78034','78035','78038','78039','78040','78041','78042','78062','78063','78072','78072','78094','78095','78096','78097','78098','78189','78189','80345','80367','80439','80439','80448','80448','80504','80505','80506','80510','80530','80531','80539','80550','80580','80591','80606','80608','80611','80619','80623','80628','80629','80635','80639','80641','80648','80649','80656','80659','80661','80665','80675','80681','80683','80727','81637','83025','83935','84368','84456','85070','85074','85077','85143','85256','85295','85864','86580','86604','86606','86611','87216','87933','87934','87935','87945','87946','87947','87948','87950','87951','87952','87955','87956','87957','87958','87959','87960','87962','87967','87968','87969','87970','87971','87973','87974','87977','87980','87981','87982','87984','87994','88000','88001','88005','88008','88011','88020','88024','88028','88029','88030','88040','88041','88047','88051','88060','88063','88065','88067','88079','88080','88089','88634','89679','89870','89871','89938','89958','89959','89960','89969','89979','89980','91397','91398','91399','91401','91402','91403','91404','91406','91407','91408','91496','91498','91533','91975','92926','93046','93047','93089','93159','93163','93230','93230','93262','93263','93434','93434','93465','93465','93469','93564','93594','93594','93611','93611','93938','93978','94686','94913','95095','95096','98337','100329','100331','100332','100453','100457','100568','100582','100679','100697','100697','100703','100709','100934','102056','103543','103543','103779','103779','103959','103960','104089','104290','104454','104738','105148','105161','105224','105251','105253','105258','105261','105273','105334','105335','105337','105340','105346','105347','105989','106260','106260','106983','113042','116178','116180','116834','117371','117385','117386','117388','117406','117416','117417','117418','117419','120358','133281','133298','63068','63071','63076','63243','64007','64586','65346','65632','65673','65726','65731','65906','66141','66312','66325','66335','66336','66339','66360','66370','66376','66377','66382','66705','66731','66741','66741','66748','66764','66770','66793','66795','66796','66807','66808','67388','67617','67655','67938','68233','68272','68272','68282','68282','69756','69947','70001','70293','70486','70534','70577','70716','70731','70778','71411','71575','71848','72019','72094','72099','72107','74084','75433','75433','75436','75436','75452','75452','75459','75459','75468','75468','75502','75505','75507','76625','76677','76732','76768','77142','78068','78180','78180','78181','78181','78183','78183','78186','78186','80178','80436','80484','81599','81611','82062','82421','82583','82978','82990','83039','84441','84594','84605','84618','84668','84752','84843','84846','85327','85474','86114','86444','86529','87766','87938','87941','87943','87961','87986','87998','87999','88004','88007','88009','88012','88014','88017','88019','88042','88066','88082','88086','88091','88092','88152','88650','91668','93045','93050','93052','93053','93057','93058','93065','93069','93070','93071','93079','93086','93087','93090','93097','93843','93940','93988','93988','93991','94002','94002','94018','94026','94028','95099','95099','95100','95100','95124','97494','97904','98268','98351','98980','99105','100323','100337','100407','100474','100480','100484','100499','100501','100569','100664','100666','100686','100723','100727','100737','100739','100741','100743','100755','100767','100773','100807','100884','100900','100901','100915','100930','100932','100950','100952','100989','100992','101002','101003','101181','101187','101222','101273','101283','101536','101543','101544','101545','101551','101553','101565','101668','101840','102044','102406','102840','103912','103952','103977','103978','103994','104001','104011','104013','104018','104019','104021','104022','104024','104032','104040','104053','104058','104058','104070','104080','104082','104082','104100','104187','104213','104223','104230','104233','104250','104251','104254','104274','104286','104302','104312','104318','104319','104326','104389','104425','104439','104505','104507','104508','104540','104543','104547','104685','104694','104721','105135','105136','105965','105988','105991','105995','106177','106180','106188','106374','106405','106501','106526','107180','107182','107243','107244','112895','113014','113044','116097','116235','116698','116702','116714','116723','116731','116744','116751','116754','116762','116775','116779','116783','116784','116790','116792','116798','116799','116804','116805','116813','116817','116823','116825','116827','116829','117287','117290','117291','117292','117364','117365','117366','117369','117373','117376','117377','117383','117410','117637','117638','120286','120292','120293','120294','120343','120344','120406','120424'))   ) \n",
+					"settings":
+					{
+						"buffer_size": 6955,
+						"line_ending": "Unix",
+						"name": "FROM items2suppliers left JOIN items  ON items2sup"
+					}
+				},
+				{
+					"file": "/storage/data/Copy/Work/UpshotCommerce/Workflow/deploy.sql",
+					"settings":
+					{
+						"buffer_size": 7699,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/storage/data/Copy/Work/UpshotCommerce/Workflow/sites.sql",
+					"settings":
+					{
+						"buffer_size": 3688,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/storage/data/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/09/2014.09.04",
+					"settings":
+					{
+						"buffer_size": 2209,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Package Control Messages\n========================\n\nVCS Gutter:\n----------\n\n  VCS Gutter\n  ==========\n  \n  VCS Gutter is a plugin for Sublime Text 2 and 3 that displays an icon in the gutter area indicating whether a line has been inserted, modified or deleted relative to the version of the file in the local source code repository. VCS Gutter supports Git, Mercurial and Subversion.\n  \n  VCS Gutter is a \"friendly fork\" that builds on the original work in Git Gutter by jisaacks (https://github.com/jisaacks/GitGutter).\n  \n  Installation\n  ------------\n  \n  VcsGutter assumes that the `git`, `hg`, `svn` and `diff` commands are availible on the command line. The installers for these tools may not add the directory containing the executables to the PATH environment variable. If not, you must add the appropriate directory to your PATH variable.\n  \n  For example:\n  ```dos\n   %PATH%;C:\\Program Files (x86)\\Git\\bin;C:\\Program Files (x86)\\Git\\cmd\n  ```\n  \n  Alternatively, you can configure the paths in settings as described below.\n  \n  Settings\n  --------\n  \n  Settings are accessed via the Preferences / Package Settings / VCS Gutter menu.\n  \n  Default settings should not be modified, as they are overwritten when VCS Gutter is updated. Instead, you should copy the relevant settings into VCS Gutter's user settings file.\n  \n  Live Mode\n  ~~~~~~~~~\n  \n  By default, VCS Gutter detects changes every time the file is modified. If you experience performance issues you can set it to only run on save by setting `live_mode` to `false`.\n  \n  Non-Blocking Mode\n  ~~~~~~~~~~~~~~~~~\n  \n  By default, VcsGutter runs in the same thread which can block if it starts to perform slowly. Usually this isn't a problem but depending on the size of your file or repo it can be. If you set `non_blocking` to `true` then VcsGutter will run in a seperate thread and will not block. This does cause a slight delay between when you make a modification and when the icons update in the gutter. This is a ***Sublime Text 3 only feature***. Sublime Text 2 users can turn off live mode if performance is an issue.\n  \n  Executable Path\n  ~~~~~~~~~~~~~~~\n  \n  If your VCS executable (git, hg, or svn) or diff utility is not in your PATH, you may need to set the `vcs_paths` setting to the location of your executables:\n  \n  {\n      \"vcs_paths\": {\n          \"diff\": \"diff\",\n          \"git\": \"git\",\n          \"hg\": \"/usr/local/bin/hg\",\n          \"svn\": \"svn\"\n      }\n  }\n  \n  Colors\n  ~~~~~~\n  \n  The colors come from your color scheme .tmTheme file. If your color scheme file does not define the appropriate colors (or you want to edit them) add an entry that looks like this:\n  \n  <dict>\n    <key>name</key>\n    <string>diff.deleted</string>\n    <key>scope</key>\n    <string>markup.deleted</string>\n    <key>settings</key>\n    <dict>\n      <key>foreground</key>\n      <string>#F92672</string>\n    </dict>\n  </dict>\n  <dict>\n    <key>name</key>\n    <string>diff.inserted</string>\n    <key>scope</key>\n    <string>markup.inserted</string>\n    <key>settings</key>\n    <dict>\n      <key>foreground</key>\n      <string>#A6E22E</string>\n    </dict>\n  </dict>\n  <dict>\n    <key>name</key>\n    <string>diff.changed</string>\n    <key>scope</key>\n    <string>markup.changed</string>\n    <key>settings</key>\n    <dict>\n      <key>foreground</key>\n      <string>#967EFB</string>\n    </dict>\n  </dict>\n  \n  Jumping Between Changes\n  ~~~~~~~~~~~~~~~~~~~~~~~\n  \n  There are commands to jump between modifications. The default key bindings for these commands are:\n  \n  **Linux**\n  \n  prev: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>k</kbd>\n  next: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>j</kbd>\n  \n  **OS X**\n  \n  prev: <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>option</kbd> + <kbd>k</kbd>\n  next: <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>option</kbd> + <kbd>j</kbd>\n  \n  **Windows**\n  \n  prev: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>k</kbd>\n  next: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>j</kbd>\n  \n\n\nSummitLinter:\n------------\n\n  SummitLinter\n  -------------------------------\n  This linter plugin for SublimeLinter provides an interface to luacheck and SummitEditor.\n  \n  ** IMPORTANT! **\n  \n  Before this plugin will activate, you *must*\n  follow the installation instructions here:\n  \n  https://github.com/corvisacloud/SummitLinter\n  \n\n\nSublimeLinter:\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text 3.\n  \n                   * * * IMPORTANT! * * *\n  \n          SublimeLinter 3 is NOT a drop-in replacement for\n          earlier versions.\n  \n          Linters *NOT* included with SublimeLinter 3, they\n          must be installed separately.\n  \n          Settings are different.\n  \n                  * * * READ THE DOCS! * * *\n  \n  Otherwise you will never know how to install linters, nor will\n  you know about all of the great new features in SublimeLinter 3.\n  \n  For complete documentation on how to install and use SublimeLinter,\n  please see:\n  \n  http://sublimelinter.readthedocs.org\n  \n  \n                   _   _      _       _\n                  | | | | ___| |_ __ | |\n                  | |_| |/ _ \\ | '_ \\| |\n                  |  _  |  __/ | |_) |_|\n                  |_| |_|\\___|_| .__/(_)\n                               |_|\n  \n  \n  I spent hundreds of hours writing and documenting SublimeLinter\n  to make it the best it can be — easy to use, easy to configure,\n  easy to update, easy to extend. If you use SublimeLinter and feel\n  it is making your coding life better and easier, please consider\n  making a donation to help fund development and support.\n  \n  To donate: https://github.com/SublimeLinter/SublimeLinter3#share-the-love\n  \n  Thank you!\n  \n",
+					"settings":
+					{
+						"buffer_size": 6080,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"scratch": true
+					}
+				},
+				{
+					"contents": "3462	Cosabella Internal	Derek Stringfellow	Feature	In Progress	Critical	EU VAT Support	09/03/2014 05:21 pm	07/02/2014	\n4213	JSFF Bugs and Fixes	Rebecca Traxler	Bug	In Progress	High	Inventory Status Report - search by supplier gives 0 results	08/27/2014 04:39 pm		\n4253	Freshtrends - Internal	Rebecca Traxler	Bug	In Progress	High	Gift Registry and Wish List Ship to Issue	09/03/2014 06:14 pm		\n3012	Toolkit Polishing / Toolkit Ver. 3 (v3)	Kaloyan Tsvetkov	Feature	New	Normal	Helpdesk: Browse Ticket Rules	04/16/2014 07:32 pm\n3015	Toolkit Polishing / Toolkit Ver. 3 (v3)	Kaloyan Tsvetkov	Feature	New	Normal	Helpdesk: New Ticket Rules	04/16/2014 07:39 pm		\n3402	Toolkit Polishing / Toolkit Ver. 3 (v3)	Mihail Krastev	Feature	New	Normal	Helpdesk - List Tickets and add search to that listing	06/11/2014 04:05 am		\n3543	Upshot Commerce	Mihail Krastev	Bug	New	Normal	Implement search filter in tax configuration section - in TPv3	08/05/2014 06:00 pm	\n4147	Wildlife Internal	Derek Stringfellow	Bug	In Progress	Normal	Has the issue of vendor deletion been resolved?	08/27/2014 01:22 pm\n2870	Upshot Commerce	Kaloyan Tsvetkov	Feature	New	Normal	Per-server cron for monitoring the error and access logs	03/26/2014 05:10 pm\n3013	Tea - Internal	Neal Kaiser	Bug	New	Normal	'NO RESULTS' modal displays automatically on Shop Locations	04/22/2014 07:20 pm	04/17/201\n3254	Cosabella Internal	Derek Stringfellow	Feature	New	Normal	ERP Integration (Blue Cherry and AS400)	07/21/2014 06:05 pm",
+					"settings":
+					{
+						"buffer_size": 1470,
+						"line_ending": "Unix",
+						"name": "3462	Cosabella Internal	Derek Stringfellow	Feature"
+					}
+				},
+				{
+					"contents": "/usr/bin/mplayer -noquiet -nofs -nomouseinput -sub-fuzziness 1 -identify -slave \n-vo xv, -ao alsa \n-nokeepaspect -nodr -double -input nodefault-bindings:conf=/dev/null \n\n-stop-xscreensaver -wid 31457315 -monitorpixelaspect 1 -ass -embeddedfonts -ass-line-spacing 0 -ass-font-scale 1 -noflip-hebrew -ass-styles /home/mlinuxgada/.config/smplayer/styles.ass \n\n-subfont-autoscale 0 -subfont-osd-scale 20 -subfont-text-scale 20 -subcp CP1251 -subpos 100 -volume 100 -cache 2048 -osdlevel 0 -vf-add screenshot -noslices -channels 2 -af scaletempo,equalizer=0:0:0:0:0:0:0:0:0:0 -softvol -softvol-max 110 /storage_dev/Multimedia/Video/Serials/EN_US/TheStrain/S01/The.Strain.S01E04.HDTV.x264-ASAP.mp4\n\n\n        // instantiate the digest with given alg ... by default its SHA1\n        d = java.security.MessageDigest.getInstance(CRYPT_ALG);\n        d.reset();\n\n        // compose the raw hash string for encryption\n        String str = data + this.salt;\n        d.update(str.getBytes(\"UTF-8\"));\n        String hash = \"\";\n\n        // get the actual encrypthed byte arr\n        byte rawHash[] = d.digest();\n\n        // encode it using BASE64Encoder()\n        hash = Base64.encodeToString(rawHash, Base64.DEFAULT);\n\n        // get the specific portion from the encrypted hash\n        String result = hash.substring(11, 28);",
+					"settings":
+					{
+						"buffer_size": 1310,
+						"line_ending": "Unix",
+						"name": "/usr/bin/mplayer -noquiet -nofs -nomouseinput -sub"
+					}
+				},
+				{
+					"file": "/home/mlinuxgada/dmesg",
+					"settings":
+					{
+						"buffer_size": 56731,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "SET foreign_key_checks = 0;  \ntruncate table items; \ntruncate table parent_profiles; \ntruncate table child_columns; \ntruncate table items2categories; \ntruncate table bundles; \ndelete from categories where categories.id > 1; \ntruncate table objects2files; \ntruncate table files; \nSET foreign_key_checks = 1;\n",
+					"settings":
+					{
+						"buffer_size": 307,
+						"line_ending": "Unix",
+						"name": "SET foreign_key_checks = 0;"
+					}
+				},
+				{
+					"contents": "The Single Responsibility (SRP), \nOpen/Closed (OCP), \nLiskov Substitution, \nInterface Segregation, \nand Dependency Inversion. \n\nFive agile principles that should guide you every time you write code.\n\nhttp://www.the5sstore.com/1-half-in-brass-interlocking-stencil-set-77.html\n\nhttp://the5sstore.upshotcommerce.com/item/10bs77-1h/5sstore-1-1/2-brass-interlocking-letter-number-stencil-77-piece-set/1.html\n\nhttps://0.dev.mlinuxgada.info/index.php?&type=toolkit&page=download_print&action=download&view_type=orders&operation=invoices&id=NG29650049&p=1&y=NWFlNmU3ZjUzYjcwZmMzODViODVkMDAyODM0ZjhjNzY6MzozNw%3D%3D",
+					"settings":
+					{
+						"buffer_size": 606,
+						"line_ending": "Unix",
+						"name": "The Single Responsibility (SRP),"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 72.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"Packa",
+						"Package Control: List Packages"
+					],
+					[
+						"Install",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"packa",
+						"Package Control: List Packages"
+					],
+					[
+						"update",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"the",
+						"Themr: List themes"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"theme",
+						"Themr: List themes"
+					],
+					[
+						"them",
+						"Themr: List themes"
+					],
+					[
+						"word",
+						"Word Wrap: Toggle"
+					]
+				],
+				"width": 457.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mlinuxgada/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/mlinuxgada/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+				"/storage/data/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/08/2014.08.28",
+				"/storage/data/Copy/Work/UpshotCommerce/Workflow/reports",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/revisions",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/deploy.sql",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/sites.sql",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/Diaries/2014/08/2014.08.29",
+				"/storage_dev/data/Work/UpshotCommerce/Workflow/reports",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/revisions",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/deploy.sql",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/sites.sql",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/08/2014.08.28",
+				"/storage/tmp/print_invoices_NG64150009_2014-08-25__06_04_00.pdf",
+				"/storage_dev/projects/www/mas-kt/heavymetal/plugins/shipping/shipping/base.php",
+				"/storage_dev/projects/www/mas-kt/heavymetal/lib/masdb/item.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/item_2014-08-15_14-18-29 missing models.csv",
+				"/tmp/report_restock_stats_2014-08-15_08-33-31.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/07/2014.07.24",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/category_descr.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/item_custom.csv",
+				"/home/mlinuxgada/.conkyrc",
+				"/home/mlinuxgada/conky_theme/readme",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/item_2014-07-16_06-29-08.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/category_descr_only.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Backups/the5sstore/item_descr.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/Tea/Duty Calculator/credentials",
+				"/storage/tmp/address_ft.upshot.csv",
+				"/storage/tmp/errors.csv",
+				"/storage/tmp/address_2014-06-24_13-10-03.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/06/2014.06.26",
+				"/storage/tmp/ft_addresses.csv",
+				"/storage/tmp/address_2014-06-23_10-49-28.csv",
+				"/storage/tmp/address_2014-06-23_11-47-22.csv",
+				"/storage/tmp/freshtrends_addresses_2014-06-18_12-58-13.csv",
+				"/storage/tmp/freshtrends_addresses_2014-06-18_13-10-38.csv",
+				"/storage/tmp/address_5.csv",
+				"/storage_dev/projects/www/mas-kt/heavymetal/plugins/custom_plugin_aims/data/fixed_completed_unpaid_2014-06-02_08:17.txt",
+				"/storage/tmp/address_2014-06-19_13-39-19_old.csv",
+				"/storage/tmp/address_2014-06-19_13-44-55_new.csv",
+				"/storage/tmp/address_2014-06-19_13-40-23_new.csv",
+				"/storage/tmp/address_3.csv",
+				"/storage/tmp/address_core.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.22",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.23",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.26",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.27",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.28",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/06/2014.06.02",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/06/2014.06.03",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.21",
+				"/storage_dev/projects/www/mas-kt/heavymetal/plugins/custom_plugin_wildlife_wonders/data/stone_edge_suppliers.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/WildLifeWanders/SEOM Data to UpShot.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/WildLifeWanders/SEOM Suppliers Upshot (1).csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/05/2014.05.20",
+				"/storage_dev/projects/www/mas-kt/heavymetal/plugins/custom_plugin_wildlife_wonders/data/objinfo.xml",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/SpeedTax/credentials",
+				"/storage_dev/projects/www/mas-kt/heavymetal/theme/tea_collection/template/plugins/locations/index.html",
+				"/storage_dev/projects/www/mas-kt/heavymetal/snippets/sql/cleanup.sql",
+				"/storage_dev/projects/www/kohana/kohana_toolbox/application/views/type/page/main.php",
+				"/storage_dev/projects/www/kohana/kohana_toolbox/application/views/header.php",
+				"/storage_dev/projects/www/mas-kt/heavymetal/lib/functions.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/03/2014.03.21",
+				"/storage_dev/projects/www/mas/heavymetal/order_summary.html",
+				"/storage_dev/projects/www/mas/heavymetal/one_page_checkout.html",
+				"/storage_dev/projects/www/mas/heavymetal/theme/tea_collection/template/item/suggestions.html",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/NaturesGarden/freshtrends_flexfields_modified.csv",
+				"/storage_dev/projects/www/mas/heavymetal/theme/mpgear/template/header.html",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/NaturesGarden/freshtrends_flexfields3.4.13.csv",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Snippets/v3_varso_templates.html",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/failed_skus.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/missing_skus.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/flexfields.php",
+				"/storage/www/mas-kt/heavymetal/theme/wholesaleimports/template/item/parent.html",
+				"/storage/www/mas-kt/heavymetal/theme/wholesaleimports/template/item/store.html",
+				"/storage/www/mas-kt/heavymetal/lib/varso/adapter/section/item/search.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/02/2014.02.07",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/02/2014.02.10",
+				"/storage/www/mas-kt/heavymetal/lib/config.php",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Work/5SStore/Feb 5 2014 Exported File T5SS.csv",
+				"/storage/www/mas-kt/heavymetal/plugins/custom_plugin_5sstore/data/objinfo.xml",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Snippets/mail",
+				"/storage/data/CopyCom/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/01/2014.01.20",
+				"/home/mlinuxgada/Downloads/backordered_items_adjustment_test.csv",
+				"/home/mlinuxgada/Downloads/backordered_items_adjustment_2014-01-28_08-03-32.csv",
+				"/storage/www/mas-kt/heavymetal/plugins/dutycalculator/cron/check_hs_codes.php",
+				"/storage/www/mas-kt/heavymetal/snippets/sql/2014/82495.sql",
+				"/storage/www/mas-kt/heavymetal/plugins/custom_plugin_tea/install/sql/2014/82344.sql",
+				"/storage/www/mas-kt/heavymetal/plugins/item_recurrence/install/sql/2009/23020.sql"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					", ",
+					"\n",
+					"dev.",
+					"bison",
+					"20AL30161",
+					".dev.mlinuxgada.info",
+					"&hs",
+					", ",
+					"I have used the Floor",
+					"conk",
+					"visualpockets",
+					";",
+					"systemd",
+					"eude",
+					".dev.mlinuxgada.info",
+					"xml",
+					"text",
+					"country",
+					".dev.mlinuxgada.info",
+					"update vars set vars.value = '' where vars.name = 'address_validation_required';\nupdate vars set vars.value = unix_timestamp() where vars.name = 'login_timeout';\nupdate `vars` set `vars`.`value` = 0 where `vars`.`name` = 'cvv_required';\nupdate vars set value = 'mas key' where name = 'hmac_key';\nupdate vars set value = 'secret key' where name = 'crypt_key';\nupdate vars set value = '' where name = 'master_server';\nupdate vars set value = '' where name = 'server.list';\nupdate vars set value = '127.0.0.1' where name = 'memcache_hostname';\nupdate vars set value = '11211' where name = 'memcache_port';\nupdate vars set value = '' where name = 'cdn_url';\nupdate vars set value = '082b4af4563446f914a71d110f759ee0bc3a05a9' where name = 'tinyws_access_key'; # mastestkey123\nupdate vars set value = 'username@makeastore.com' where name like '%email%' and value not like 'a:%' and value like '%@%';\nupdate vars set value = 'username@makeastore.com' where `name` like 'order.invoice.admin';\nupdate vars set value = '{\"reply_to\":\"\\\"DEV make-a-store.com\\\" <username@makeastore.com>\",\"buyer_reply_to\":\"\",\"buyer_bcc\":\"\",\"admin_bcc\":\"username@makeastore.com\",\"user_reply_to\":\"\"}' where `name` like 'mail';\nupdate stores set email = 'username@makeastore.com', new_order_email_list = email;\n\n# a4l\nupdate users set email = CONCAT('username-',  id, '@makeastore.com'), password = 'd651b1339a985dc215619f68f7d260e6d3ebc053', password_last_change_time = now(), `users`.`toolkit_locked` = '', `users`.`ip_allow` = null;\nupdate users set users.username = 'admin' where users.type = 'admin' and users.deleted = 0 and users.active = 1 limit 1;\n# update users set users.ip_allow = null;\nupdate orders set email = CONCAT('username-',  user_id, '@makeastore.com'), card_number = 'gNAJ4vC4+ojxlp78f51ebw==', card_holder = 'John Q Public', card_exp_date_year = 2015, card_exp_date_month = 12, card_start_month = 1, card_start_year = 2006;\nupdate orders set check_number = '', bank_name = '', routing_number = '', account_number = '';\nupdate orders set drivers_license_state = '', drivers_license = '';\nupdate wallets set cc_type = 'V', cc_num = 'gNAJ4vC4+ojxlp78f51ebw==', exp_date = '2015-12-01', card_holder = 'John Q Public', card_start_month = 1, card_start_year = 2006;\nupdate wallets set check_number = '', bank_name = '', routing_number = '', account_number = '';\nupdate wallets set drivers_license_state = '', drivers_license = '';\nupdate ebay_won_items set buyer_email = CONCAT('username-', id, '@makeastore.com');\nupdate price_alerts set email = CONCAT('username-', id, '@makeastore.com');\nupdate price_email_requests set email = CONCAT('username-', id, '@makeastore.com');\nupdate reviews set email = CONCAT('username-', id, '@makeastore.com');\nupdate testimonials set author_email = CONCAT('username-', id, '@makeastore.com');\nupdate forms set email = CONCAT('username-', id, '@makeastore.com');\nupdate rmas set email_override = CONCAT('username-', id, '@makeastore.com') where email_override is not null;\n\n\n# reset address line 1/2/3\nupdate addresses set address1='1 Fake St.', address2 = '', address3='';\nupdate orders set cardholder_address1='1 Fake St.', cardholder_address2 = '', cardholder_address3='';\nupdate packages set address1='1 Fake St.', address2 = '', address3='';\n\n# shipping\nupdate fedex_pull set email = CONCAT('username-', order_id, '@makeastore.com');\nupdate fixed_pull set email = CONCAT('username-', order_id, '@makeastore.com');\nupdate ups_pull set email = CONCAT('username-', order_id, '@makeastore.com');\nupdate usps_pull set email = CONCAT('username-', order_id, '@makeastore.com');\n\nupdate coupons set description='';\n\nupdate `vars` set `value`='' where `name` in \n('ebridge_login', 'ebridge_password', 'ebridge_user_id', \n'ebridge_partner', 'ebridge_send_cash_receipts', \n'mas_ebridge_login', 'mas_ebridge_password', \n'newgistics_username', 'newgistics_password');\n",
+					"2006",
+					"pci_to",
+					"mail",
+					"address",
+					"command",
+					"mas.misho.masbg.com",
+					"dev.mlinuxgada.info",
+					"'",
+					"misc45",
+					"amazon_feed_",
+					"misc3",
+					"misc",
+					" => ",
+					",",
+					"pass",
+					"! #2488",
+					"40S4048",
+					"53WMW11T",
+					"83409",
+					"<Code>None</Code",
+					"admin",
+					"child_col",
+					"origin",
+					"country",
+					"html",
+					"/mp/mas-kt/",
+					"   M ",
+					"|",
+					"| ",
+					"|",
+					"| ",
+					"|"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": true,
+				"replace_history":
+				[
+					", #",
+					", ",
+					"dev.php56.",
+					"mas-kt.misho.fbsd.lan",
+					"&hs",
+					"",
+					"', '",
+					",",
+					"wlw.mas.polina.masbg.com",
+					"sigma_dev",
+					"\\'",
+					"'misc",
+					"' => '",
+					" => ",
+					"+",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 6,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/storage/data/Copy/Work/UpshotCommerce/Workflow/revisions",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2347,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2229,
+										2229
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 540.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6955,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_name": "FROM items2suppliers left JOIN items  ON items2sup",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/storage/data/Copy/Work/UpshotCommerce/Workflow/deploy.sql",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7699,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7451,
+										7451
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/SQL/SQL.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1935.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/storage/data/Copy/Work/UpshotCommerce/Workflow/sites.sql",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3688,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2091,
+										2091
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/SQL/SQL.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 315.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/SQL/SQL.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/storage/data/Copy/Work/UpshotCommerce/Workflow/Diaries/2014/09/2014.09.04",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2209,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1236,
+										1236
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 450.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6080,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6080,
+										6080
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1470,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										702,
+										702
+									]
+								],
+								"settings":
+								{
+									"auto_name": "3462	Cosabella Internal	Derek Stringfellow	Feature",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"translate_tabs_to_spaces": false,
+									"word_wrap": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1310,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										973,
+										973
+									]
+								],
+								"settings":
+								{
+									"auto_name": "/usr/bin/mplayer -noquiet -nofs -nomouseinput -sub",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 105.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/home/mlinuxgada/dmesg",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 56731,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										12609,
+										12609
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 180.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 307,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										307,
+										307
+									]
+								],
+								"settings":
+								{
+									"auto_name": "SET foreign_key_checks = 0;",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 606,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										606,
+										606
+									]
+								],
+								"settings":
+								{
+									"auto_name": "The Single Responsibility (SRP),",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 23.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 92.0,
+				"selected_items":
+				[
+				],
+				"width": 392.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
