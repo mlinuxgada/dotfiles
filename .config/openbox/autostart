@@ -34,7 +34,7 @@ wicd-gtk &
 
 ##### start firefox, messengers and tilda console app ;-))))
 /opt/portable_apps/firefox/firefox &
-/storage/Soft/net/copy/x86_64/CopyAgent &
+/opt/portable_apps/copy_com/CopyAgent &
 pidgin &
 skype &
 tilda &
