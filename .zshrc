@@ -50,12 +50,8 @@ bindkey "\eOF" end-of-line
 #------------------------------
 # Alias stuff
 #------------------------------
-alias ls="ls --color -lah"
-alias ll="ls --color -lh"
-alias spm="sudo pacman"
-alias spmc="sudo pacman-color"
-alias gr="gvim --remote-silent"
-alias vr="vim --remote-silent"
+alias ls="ls -lah"
+alias ll="ls -lh"
 export MYSQL_PS1="mysql (\d)> "
 export TERM="xterm-256color"
 
