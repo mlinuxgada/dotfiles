@@ -53,7 +53,6 @@ bindkey "\eOF" end-of-line
 #------------------------------
 alias ls="ls -lah"
 alias ll="ls -lh"
-alias vr="vim --remote-silent"
 export MYSQL_PS1="mysql (\d)> "
 export TERM="xterm-256color"
 
