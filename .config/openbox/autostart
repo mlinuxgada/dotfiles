@@ -21,7 +21,7 @@ setxkbmap -layout 'us,bg' -variant ',phonetic' -option 'grp:alt_shift_toggle,grp
 #nitrogen --restore &
 
 ##### use feh to setup the desktop wallpaper properly
-feh --bg-scale /storage/data/CopyCom/Copy/Backups/wallpapers/openbox_wallpaper_by_ed1w2ard-d30tv1l.jpg
+feh --bg-scale ~/.config/openbox/wallpapers/openbox_wallpaper_by_ed1w2ard-d30tv1l.jpg
 
 ##### start tint2 taskbar
 tint2 &
