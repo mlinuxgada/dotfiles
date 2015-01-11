@@ -5,16 +5,16 @@ tmux new-window -t webdev_upshot:1 -n 'databases'
 tmux send-keys -t webdev_upshot:1 'cd /storage/data/sql; clear' C-m
 
 tmux new-window -t webdev_upshot:2 -n 'console_mas'
-tmux send-keys -t webdev_upshot:2 'cd /storage/projects/www/mas; svn up' C-m
+tmux send-keys -t webdev_upshot:2 'cd /storage_dev/projects/www/mas; svn up' C-m
 
 tmux new-window -t webdev_upshot:3 -n 'console_mas-kt'
-tmux send-keys -t webdev_upshot:3 'cd /storage/projects/www/mas-kt; php heavymetal/snippets/cache_dumper.php run all && php heavymetal/snippets/mut.php' C-m
+tmux send-keys -t webdev_upshot:3 'cd /storage_dev/projects/www/mas-kt; php heavymetal/snippets/cache_dumper.php run all && php heavymetal/snippets/mut.php' C-m
 
 tmux new-window -t webdev_upshot:4 -n 'mysql' #-c 'mysql -u root '
 tmux send-keys -t webdev_upshot:4 'mysql -u root; clear' C-m
 
 tmux new-window -t webdev_upshot:5 -n 'vim'
-tmux send-keys -t webdev_upshot:5 'cd /storage/projects/www/mas-kt; vim' C-m
+tmux send-keys -t webdev_upshot:5 'cd /storage_dev/projects/www/mas-kt; vim' C-m
  
 
 tmux select-window -t webdev_upshot:3
