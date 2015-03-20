@@ -10,3 +10,6 @@ alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias xlock='xlock -mode matrix'
 alias tmux="TERM=screen-256color-bce tmux"
 alias ls="ls -lah"
+alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
+
+alias emacs='emacs -nw'

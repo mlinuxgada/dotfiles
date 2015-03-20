@@ -27,7 +27,7 @@ feh --bg-scale ~/.config/openbox/wallpapers/openbox_wallpaper_by_ed1w2ard-d30tv1
 tint2 &
 
 ##### start conky system nonitoring GUI app
-conky &
+#conky &
 
 ##### start wicd, the GTK verion, to be able to connect with wifi
 wicd-gtk &

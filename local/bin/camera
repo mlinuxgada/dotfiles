@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 CDIR=`pwd`
 DIR=`date +%Y_%m_%d`
@@ -27,8 +27,8 @@ echo "===>>>> Converting all NEF files into "$JPEG_DIR
 #ufraw-batch --out-type=jpeg --out-path=$JPEG_DIR $WORK_DIR/*.NEF
 for raw_filename in *.NEF
 do
-	exiftool -b -JpgFromRaw $WORK_DIR/$raw_filename > $JPEG_DIR/${raw_filename%.*}.jpg
+	exiftool -b -JpgFromRaw $WORK_DIR/$raw_filename > $WORK_DIR/${raw_filename%.*}.jpg
 	# update EXIF tags to the newly converted jpg file
-	exiftool -TagsFromFile $WORK_DIR/$raw_filename $JPEG_DIR/${raw_filename%.*}.jpg
+	exiftool -TagsFromFile $WORK_DIR/$raw_filename $WORK_DIR/${raw_filename%.*}.jpg
 	rm -f $JPEG_DIR/${raw_filename%.*}.jpg_original
 done
