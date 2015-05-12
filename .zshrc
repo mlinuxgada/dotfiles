@@ -5,6 +5,10 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 
+### allow cross compiling /make -jX/ on OpenBSD
+export PARALLEL_BUILD=Yes 
+export MAKE_JOBS=5 
+
 #------------------------------
 # Variables
 #------------------------------
