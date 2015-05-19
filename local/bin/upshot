@@ -1,0 +1,40 @@
+#!/bin/bash
+
+DEPLOY_FILE_PATH=/storage/data/CopyCom/Work/UpshotCommerce/Workflow/deploy.sql
+STORAGE_SQL_DIR=/storage/data/sql
+
+if [ $# -eq 0 ]
+then
+      echo "No arguments supplied"
+	  exit
+fi 
+
+
+COMMAND=$1
+
+if [[ ! -z "$2" ]]
+then
+	DB_NAME_PREFIX="$2"
+fi
+
+if [ "$COMMAND" == "deploy" ];
+then
+	echo "===>>> Droping mas-kt_$DB_NAME_PREFIX if exists"
+	mysql -uroot -e "drop database if exists \`mas-kt_$DB_NAME_PREFIX\`"
+	echo "===>>> Done"
+
+	echo "===>>> Creating mas-kt_$DB_NAME_PREFIX ..."
+	mysql -uroot -e "create database \`mas-kt_$DB_NAME_PREFIX\`"
+	echo "===>>> Done"
+
+	echo "===>>> Inserting the PLAIN content of $DB_NAME_PREFIX.sql into mas-kt_$DB_NAME_PREFIX"
+	mysql -uroot mas-kt_$DB_NAME_PREFIX < $STORAGE_SQL_DIR/$DB_NAME_PREFIX.sql
+	echo "===>>> Done"
+
+	echo "===>>> Runnign deploy.sql on mas-kt_$DB_NAME_PREFIX"
+	mysql -u root mas-kt_cb -f < $DEPLOY_FILE_PATH  
+	echo "===>>> Done"
+
+fi
+
+echo $DB_NAME_PREFIX
