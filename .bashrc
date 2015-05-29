@@ -13,3 +13,6 @@ alias ls="ls -lah"
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
 
 alias emacs='emacs -nw'
+
+alias frodo="ssh misho@masbg.com -p 53022"
+alias dfbsd="ssh mlinuxgada@dev.mlinuxgada.info -p 668"
