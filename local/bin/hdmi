@@ -9,13 +9,16 @@ except:
     print("===> No arguments set, pls choose start or stop!!!")
     sys.exit(0)
 
+hdmiLabel = os.popen("xrandr | grep \"HDMI\" | awk '{print $1}'").read().strip()
+dpLabel = os.popen("xrandr | grep \"DP\" | awk '{print $1}'").read().strip()
+
 if command == 'start':
     print("===> Will start it")
-    os.system("xrandr --output HDMI-1-0 --mode 1920x1080 --right-of eDP-1-0")
+    os.system("xrandr --output " + hdmiLabel +  " --mode 1920x1080 --right-of " + dpLabel)
     print("===> Success ;-)")
 elif command == 'stop':
     print("===> Will stop the program")
-    os.system("xrandr --output HDMI-1-0 --off")
+    os.system("xrandr --output " + hdmiLabel + " --off")
     print("===> Success ;-)")
 else:
     print("===> Dont know what to do with command:" + command)

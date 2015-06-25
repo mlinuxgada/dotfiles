@@ -32,7 +32,7 @@ then
 	echo "===>>> Done"
 
 	echo "===>>> Runnign deploy.sql on mas-kt_$DB_NAME_PREFIX"
-	mysql -u root mas-kt_cb -f < $DEPLOY_FILE_PATH  
+	mysql -u root mas-kt_$DB_NAME_PREFIX -f < $DEPLOY_FILE_PATH  
 	echo "===>>> Done"
 
 fi

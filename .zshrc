@@ -12,7 +12,7 @@ export LANG="en_US.UTF-8"
 export BROWSER="firefox"
 export EDITOR="vim"
 #export PAGER="vimpager"
-export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin"
+export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin"
 export MAS_KT="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas-kt"
 export MAS="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas"
 
@@ -30,6 +30,8 @@ typeset -g -A key
 #bindkey '\e[3~' delete-char
 bindkey '\e[1~' beginning-of-line
 bindkey '\e[4~' end-of-line
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 #bindkey '\e[2~' overwrite-mode
 bindkey '^?' backward-delete-char
 bindkey '^[[1~' beginning-of-line
@@ -53,11 +55,16 @@ bindkey "\eOF" end-of-line
 #------------------------------
 alias ls="ls -lah"
 alias ll="ls -lh"
+alias emacs='emacs -nw'
+alias tmux="TERM=screen-256color-bce tmux"
 export MYSQL_PS1="mysql (\d)> "
 export TERM="xterm-256color"
 
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
-#alias xlock='xlock -mode matrix'
+alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
+
+alias frodo="ssh misho@masbg.com -p 53022"
+alias dfbsd="ssh mlinuxgada@dev.mlinuxgada.info -p 668"
 
 #------------------------------
 # ShellFuncs
@@ -168,6 +175,18 @@ setprompt() {
   RPROMPT=$'${vcs_info_msg_0_}'
 }
 setprompt
+
+fancy-ctrl-z () {
+  if [[ $#BUFFER -eq 0 ]]; then
+    BUFFER="fg"
+    zle accept-line
+  else
+    zle push-input
+    zle clear-screen
+  fi
+}
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
 
 # vim: set ts=2 sw=2 et:
 

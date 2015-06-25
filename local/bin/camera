@@ -6,29 +6,28 @@ if [[ ! -z "$1" ]]
 then
 	DIR="$1"
 fi
-#DIR="2014_08_17"
 WORK_DIR=$CDIR/$DIR
-JPEG_DIR=$WORK_DIR/jpg
 
 
 # echo "===>>> Creating Working Dir:" $WORK_DIR
- mkdir $WORK_DIR
+mkdir $WORK_DIR
+
 #
-# echo "===>>> Creating JPEG Dir:"$JPEG_DIR
- mkdir $JPEG_DIR
 #
 echo "===>>> Getting into working dir:" $WORK_DIR
+
 cd $WORK_DIR
-#
-# echo "===>>> Retrieving all files from camera here ..."
+
+echo "===>>> Retrieving all files from camera here ..."
 gphoto2 --get-all-files
+
 #
 echo "===>>>> Converting all NEF files into "$JPEG_DIR
 #ufraw-batch --out-type=jpeg --out-path=$JPEG_DIR $WORK_DIR/*.NEF
-for raw_filename in *.NEF
-do
-	exiftool -b -JpgFromRaw $WORK_DIR/$raw_filename > $WORK_DIR/${raw_filename%.*}.jpg
-	# update EXIF tags to the newly converted jpg file
-	exiftool -TagsFromFile $WORK_DIR/$raw_filename $WORK_DIR/${raw_filename%.*}.jpg
-	rm -f $JPEG_DIR/${raw_filename%.*}.jpg_original
-done
+#for raw_filename in *.NEF
+#do
+#	exiftool -b -JpgFromRaw $WORK_DIR/$raw_filename > $WORK_DIR/${raw_filename%.*}.jpg
+#	# update EXIF tags to the newly converted jpg file
+#	exiftool -TagsFromFile $WORK_DIR/$raw_filename $WORK_DIR/${raw_filename%.*}.jpg
+#	rm -f $JPEG_DIR/${raw_filename%.*}.jpg_original
+#done
