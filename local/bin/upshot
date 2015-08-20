@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEPLOY_FILE_PATH=/storage/data/CopyCom/Work/UpshotCommerce/Workflow/deploy.sql
+DEPLOY_FILE_PATH=/storage/data/Copy/Work/UpshotCommerce/Workflow/deploy.sql
 STORAGE_SQL_DIR=/storage/data/sql
 
 if [ $# -eq 0 ]

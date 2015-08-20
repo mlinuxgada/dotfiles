@@ -11,10 +11,7 @@ SAVEHIST=1000
 export LANG="en_US.UTF-8"
 export BROWSER="firefox"
 export EDITOR="vim"
-#export PAGER="vimpager"
 export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin"
-export MAS_KT="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas-kt"
-export MAS="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas"
 
 #-----------------------------
 # Dircolors
@@ -62,9 +59,16 @@ export TERM="xterm-256color"
 
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
+alias mpv_hdmi="mpv -ao=alsa:device='[hw:0,3]' "
+
+# ----- Upshot related gobal vars/aliases
+export MAS_KT="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas-kt"
+export MAS="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas"
 
 alias frodo="ssh misho@masbg.com -p 53022"
 alias dfbsd="ssh mlinuxgada@dev.mlinuxgada.info -p 668"
+alias upshot_databases="mysql -h 174.36.83.133 -u office_readonly"
+# ----- end of Upshot related aliases
 
 #------------------------------
 # ShellFuncs
