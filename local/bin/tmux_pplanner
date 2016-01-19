@@ -1,0 +1,21 @@
+#!/bin/sh
+tmux new-session -d -s webdev_pplanner
+ 
+tmux new-window -t webdev_pplanner:1 -n 'console'
+tmux send-keys -t webdev_pplanner:1 'cd /storage/projects/www/' C-m
+
+#tmux new-window -t webdev_pplanner:2 -n 'console_mas'
+#tmux send-keys -t webdev_pplanner:2 'cd /storage/projects/www/mas; svn up' C-m
+
+#tmux new-window -t webdev_pplanner:3 -n 'console_mas-kt'
+#tmux send-keys -t webdev_pplanner:3 'cd /storage/projects/www/mas-kt; php heavymetal/snippets/cache_dumper.php run all && php heavymetal/snippets/mut.php' C-m
+
+tmux new-window -t webdev_pplanner:2 -n 'mysql' #-c 'mysql -u root '
+tmux send-keys -t webdev_pplanner:2 'mysql -u root; clear' C-m
+
+tmux new-window -t webdev_pplanner:3 -n 'vim'
+tmux send-keys -t webdev_pplanner:3 'cd /storage/projects/www; vim' C-m
+ 
+
+tmux select-window -t webdev_pplanner:3
+tmux -2 attach-session -t webdev_pplanner
