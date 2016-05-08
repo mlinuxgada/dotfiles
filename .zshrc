@@ -68,6 +68,12 @@ export MAS="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas"
 alias frodo="ssh misho@masbg.com -p 53022"
 alias dfbsd="ssh mlinuxgada@dev.mlinuxgada.info -p 668"
 alias upshot_databases="mysql -h 174.36.83.133 -u office_readonly"
+
+
+## PPlanner 
+alias pp_fb_details_cache="ssh root@104.131.25.227"
+alias pp_article_score="ssh scoring.postplanner.com@45.55.54.121"
+
 # ----- end of Upshot related aliases
 
 #------------------------------
