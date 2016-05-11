@@ -71,6 +71,7 @@ alias upshot_databases="mysql -h 174.36.83.133 -u office_readonly"
 
 
 ## PPlanner 
+alias pp_production="ssh postplanner@45.55.44.98"
 alias pp_fb_details_cache="ssh root@104.131.25.227"
 alias pp_article_score="ssh scoring.postplanner.com@45.55.54.121"
 
