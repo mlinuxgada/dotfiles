@@ -2,9 +2,9 @@
 
 CDIR=`pwd`
 DIR=`date +%Y_%m_%d`
-if [[ ! -z "$1" ]]
+if [[ ! -z "$2" ]]
 then
-	DIR="$1"
+	DIR="$2"
 fi
 WORK_DIR=$CDIR/$DIR
 
@@ -19,7 +19,15 @@ echo "===>>> Getting into working dir:" $WORK_DIR
 cd $WORK_DIR
 
 echo "===>>> Retrieving all files from camera here ..."
-gphoto2 --get-all-files
+
+if [[ ! -z "$1" ]]
+then
+	echo "Fetching from MMC card"
+	cp -v /mnt/mmc/DCIM/101D7100/* $WORK_DIR
+else 
+	echo "Getting the files using Gphoto"
+	#gphoto2 --get-all-files
+fi
 
 #
 echo "===>>>> Converting all NEF files into "$JPEG_DIR
