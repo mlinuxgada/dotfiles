@@ -8,7 +8,6 @@ then
 fi
 WORK_DIR=$CDIR/$DIR
 
-
 # echo "===>>> Creating Working Dir:" $WORK_DIR
 mkdir $WORK_DIR
 
@@ -23,19 +22,19 @@ echo "===>>> Retrieving all files from camera here ..."
 if [[ ! -z "$1" ]]
 then
 	echo "Fetching from MMC card"
-	cp -v /mnt/mmc/DCIM/101D7100/* $WORK_DIR
+	#cp -v /mnt/mmc/DCIM/101D7100/* $WORK_DIR
+	cp -a /misc/mmc/DCIM/102_FUJI/* $WORK_DIR
 else 
 	echo "Getting the files using Gphoto"
 	#gphoto2 --get-all-files
 fi
 
 #
-echo "===>>>> Converting all NEF files into "$JPEG_DIR
+#echo "===>>>> Converting all NEF files into "$JPEG_DIR
 #ufraw-batch --out-type=jpeg --out-path=$JPEG_DIR $WORK_DIR/*.NEF
-for raw_filename in *.NEF
-do
-	exiftool -b -JpgFromRaw $WORK_DIR/$raw_filename > $WORK_DIR/${raw_filename%.*}.jpg
-#	# update EXIF tags to the newly converted jpg file
-	exiftool -TagsFromFile $WORK_DIR/$raw_filename $WORK_DIR/${raw_filename%.*}.jpg
-	rm -f $JPEG_DIR/${raw_filename%.*}.jpg_original
-done
+#for raw_filename in *.NEF
+#do
+#	exiftool -b -JpgFromRaw $WORK_DIR/$raw_filename > $WORK_DIR/${raw_filename%.*}.jpg
+#	exiftool -TagsFromFile $WORK_DIR/$raw_filename $WORK_DIR/${raw_filename%.*}.jpg
+#	rm -f $JPEG_DIR/${raw_filename%.*}.jpg_original
+#done

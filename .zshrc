@@ -69,6 +69,11 @@ alias frodo="ssh misho@masbg.com -p 53022"
 alias dfbsd="ssh mlinuxgada@dev.mlinuxgada.info -p 668"
 alias upshot_databases="mysql -h 174.36.83.133 -u office_readonly"
 
+## aws icn related
+alias aws="aws --endpoint-url https://s3.icnhost.net"
+
+# end of aws icn related
+
 # ----- end of Upshot related aliases
 
 #------------------------------
