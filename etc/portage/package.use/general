@@ -27,11 +27,6 @@ media-libs/gegl cairo
 dev-libs/libxml2 icu
 xfce-base/thunar udisks
 
-app-editors/vim X bash-completion lua
-dev-lang/php:5.6 ftp soap pcntl imap pdo zip sharedmem sockets xmlreader xmlwriter cgi kerberos truetype gmp
-dev-lang/php:7.0 ftp soap pcntl imap pdo zip threads sockets xmlreader xmlwriter cgi kerberos truetype ldap gmp
->=media-gfx/imagemagick-6.9.4.7 -openmp
-
 media-video/vlc rtsp stream nsplugin upnp
 net-p2p/transmission -qt4 utp
 www-plugins/adobe-flash 32bit
