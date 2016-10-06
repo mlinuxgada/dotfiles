@@ -16,9 +16,6 @@ x11-libs/gtk+ X aqua
 >=x11-libs/pango-1.34.1 X
 virtual/udev gudev
 
-dev-vcs/subversion -dso
-dev-vcs/git -gtk #subversion
-dev-libs/libgit2 ssh
 media-libs/libmypaint gegl
 
 x11-misc/tint2 battery
@@ -27,14 +24,12 @@ media-libs/gegl cairo
 dev-libs/libxml2 icu
 xfce-base/thunar udisks
 
-media-video/vlc rtsp stream nsplugin upnp
 net-p2p/transmission -qt4 utp
 www-plugins/adobe-flash 32bit
 sys-libs/zlib minizip
 net-im/gajim gmail jingle
 net-libs/libnice gstreamer
 net-libs/webkit-gtk gstreamer #-introspection
-media-libs/phonon vlc
 app-text/fbreader -qt4
 net-analyzer/mtr -gtk
 app-text/ghostscript-gpl cups
@@ -43,7 +38,6 @@ www-client/links -X
 net-nds/openldap sasl
 app-text/poppler cairo
 media-libs/libpng apng
-# move x11-libs/qt-gui dev-qt/qtgui
 dev-qt/qtgui qt3support
 dev-lang/fpc source
 dev-java/swt cairo
@@ -52,16 +46,11 @@ sys-apps/busybox static
 app-admin/conky X curl ncurses portmon hddtemp imlib iostats nvidia wifi lua lua-cairo lua-imlib truetype
 sci-astronomy/stellarium stars
 
-#>=dev-ruby/json-1.8.0 ruby_targets_ruby21
-#>=dev-ruby/rake-0.9.6 ruby_targets_ruby21
 app-office/libreoffice -mysql
-#>=dev-ruby/rubygems-2.0.8 ruby_targets_ruby21
 
 
 >=x11-libs/gdk-pixbuf-2.28.2 X
 =sys-auth/consolekit-0.4.5_p20120320-r2 policykit
-#>=dev-ruby/racc-1.4.10 ruby_targets_ruby21
-#>=dev-ruby/rdoc-4.0.1-r1 ruby_targets_ruby21
 
 =sys-devel/llvm-3.4.1-r1 clang
 
