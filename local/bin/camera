@@ -22,8 +22,7 @@ echo "===>>> Retrieving all files from camera here ..."
 if [[ ! -z "$1" ]]
 then
 	echo "Fetching from MMC card"
-	#cp -v /mnt/mmc/DCIM/101D7100/* $WORK_DIR
-	cp -a /misc/mmc/DCIM/102_FUJI/* $WORK_DIR
+	cp -a /misc/mmc/DCIM/103_FUJI/* $WORK_DIR
 else 
 	echo "Getting the files using Gphoto"
 	#gphoto2 --get-all-files
