@@ -5,3 +5,5 @@
 	tool = vimdiff
 [push]
 	default = current
+[pull]
+	default = current
