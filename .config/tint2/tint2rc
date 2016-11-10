@@ -18,6 +18,7 @@ background_color = #000000 27
 border_color = #FFFFFF 100
 
 # Panel
+panel_items = LTSBC
 panel_monitor = all
 panel_position = top left horizontal
 panel_size = 0 27
@@ -108,3 +109,11 @@ bat2_font = sans 6
 battery_font_color = #ffffff 76
 battery_padding = 1 0
 battery_background_id = 0
+
+# Launchers: 
+launcher_icon_theme = LinuxLex-8
+launcher_padding = 5 0 10
+launcher_background_id = 9
+launcher_icon_size = 85
+launcher_item_app = /some/where/application.desktop
+launcher_item_app = /some/where/anotherapplication.desktop
