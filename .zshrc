@@ -77,6 +77,10 @@ alias aws="aws --endpoint-url https://s3.icnhost.net"
 # ----- end of Upshot related aliases
 
 alias jpl='python -m json.tool | pygmentize -l json'
+
+### Golang related
+export GOPATH=/storage/projects/langs/go
+export PATH=$PATH:$GOPATH/bin
 #------------------------------
 # ShellFuncs
 #------------------------------
