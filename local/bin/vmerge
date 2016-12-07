@@ -1,0 +1,36 @@
+#!/bin/bash
+
+videoFileFull=$1
+
+if [ ! -e "$videoFileFull" ]
+then
+    echo "No such file ....exitting!!!"
+    exit
+fi
+
+videoFileName=${videoFileFull%.*}
+
+if [ -e "${videoFileName}_bg.srt" ];
+then
+    subFileName="${videoFileName}_bg.srt"
+
+elif [ -e "${videoFileName}.srt" ]
+then
+    subFileName="${videoFileName}.srt"
+else 
+    echo "No sub files here!!!"
+    exit
+fi
+
+
+recode cp1251 $subFileName
+
+echo "===>>> Converting the ${subFileName} to utf8 done!!!"
+
+echo "===>>> Merging"
+
+mkvmerge -o _$videoFileName.mkv  \
+            $videoFileFull  \
+            $subFileName
+
+echo "===>>> Done"

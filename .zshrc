@@ -56,6 +56,7 @@ alias emacs='emacs -nw'
 alias tmux="TERM=screen-256color-bce tmux"
 export MYSQL_PS1="mysql (\d)> "
 export TERM="xterm-256color"
+alias xterm="xterm -rv"
 
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
