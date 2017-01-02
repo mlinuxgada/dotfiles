@@ -1,4 +1,3 @@
->=dev-lang/php-5.6.18
 =dev-java/icedtea-bin-6.1.13.9
 
 ### mysql overlay mods
@@ -7,3 +6,7 @@
 >=virtual/libmysqlclient-20
 =dev-libs/boost-1.59.0
 =dev-util/boost-build-1.59.0
+
+#vim unmasks
+=app-editors/vim-8.0.0005
+=app-editors/vim-core-8.0.0005

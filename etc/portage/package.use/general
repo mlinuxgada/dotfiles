@@ -63,3 +63,6 @@ dev-libs/jemalloc stats
 >=xfce-base/thunar-1.6.3 udev
 x11-libs/wxGTK tiff
 sys-kernel/debian-sources binary
+
+### for geary 
+app-crypt/gcr vala
