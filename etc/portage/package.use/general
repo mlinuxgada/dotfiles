@@ -66,3 +66,5 @@ sys-kernel/debian-sources binary
 
 ### for geary 
 app-crypt/gcr vala
+
+>=virtual/imap-c-client-2 kerberos

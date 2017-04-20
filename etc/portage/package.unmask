@@ -1,4 +1,4 @@
-=dev-java/icedtea-bin-6.1.13.9
+#=dev-java/icedtea-bin-6.1.13.9
 
 ### mysql overlay mods
 >=virtual/mysql-5.7-r1
