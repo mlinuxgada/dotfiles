@@ -42,7 +42,7 @@ dev-qt/qtgui qt3support
 dev-lang/fpc source
 dev-java/swt cairo
 net-nds/openldap -gnutls
-sys-apps/busybox static
+sys-apps/busybox static -pam
 app-admin/conky X curl ncurses portmon hddtemp imlib iostats nvidia wifi lua lua-cairo lua-imlib truetype
 sci-astronomy/stellarium stars
 
@@ -52,7 +52,7 @@ app-office/libreoffice -mysql
 >=x11-libs/gdk-pixbuf-2.28.2 X
 =sys-auth/consolekit-0.4.5_p20120320-r2 policykit
 
-=sys-devel/llvm-3.4.1-r1 clang
+sys-devel/llvm clang
 
 #### hhvm here !!!!
 net-libs/c-client kerberos
