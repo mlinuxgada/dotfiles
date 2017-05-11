@@ -33,16 +33,18 @@ tint2 &
 #wicd-gtk &
 
 ##### start firefox, messengers and tilda console app ;-))))
-#firefox-bin &
-#google-chrome-unstable &
-/opt/portable_apps/firefoxX86/firefox &
+google-chrome-unstable &
+#/opt/portable_apps/firefoxX86/firefox &
 #/opt/portable_apps/copy_com/CopyAgent &
 megasync & 
-pidgin &
 java -jar /opt/portable_apps/PassGen.jar &
 skype &
+pidgin &
+slack &
+
 tilda &
 connman-ui-gtk &
 /opt/portable_apps/postman/Postman &
+/opt/portable_apps/thunderbird/thunderbird-bin &
 thunar & 
-subl &
+subl3 &
