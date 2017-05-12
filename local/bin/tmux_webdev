@@ -7,32 +7,39 @@ else
     WORKDIR=$1
 fi
 
-tmux new-session -d -s webdev_apihawk
- 
-tmux new-window -t webdev_apihawk:1 -n 'console'
-tmux send-keys -t webdev_apihawk:1 "cd $WORKDIR" C-m
+if [ "$#" -ne 2 ]; 
+then 
+    SESSION_NAME=${PWD##*/}
+else 
+    SESSION_NAME=$2
+fi
 
-tmux new-window -t webdev_apihawk:2 -n 'mysql'
-tmux send-keys -t webdev_apihawk:2 'mysql -u root; clear' C-m
+tmux new-session -d -s $SESSION_NAME
+ 
+tmux new-window -t $SESSION_NAME:1 -n 'console'
+tmux send-keys -t $SESSION_NAME:1 "cd $WORKDIR" C-m
 
-tmux new-window -t webdev_apihawk:3 -n 'vim'
-tmux send-keys -t webdev_apihawk:3 "cd $WORKDIR; vim" C-m
+tmux new-window -t $SESSION_NAME:2 -n 'mysql'
+tmux send-keys -t $SESSION_NAME:2 'mysql -u root; clear' C-m
+
+tmux new-window -t $SESSION_NAME:3 -n 'vim'
+tmux send-keys -t $SESSION_NAME:3 "cd $WORKDIR; vim" C-m
  
-tmux new-window -t webdev_apihawk:4 -n 'search'
-tmux send-keys -t webdev_apihawk:4 "cd $WORKDIR" C-m
+tmux new-window -t $SESSION_NAME:4 -n 'search'
+tmux send-keys -t $SESSION_NAME:4 "cd $WORKDIR" C-m
  
-tmux new-window -t webdev_apihawk:5 -n 'submodules'
-tmux send-keys -t webdev_apihawk:5 "cd $WORKDIR" C-m
+tmux new-window -t $SESSION_NAME:5 -n 'submodules'
+tmux send-keys -t $SESSION_NAME:5 "cd $WORKDIR" C-m
  
-tmux new-window -t webdev_apihawk:6 -n 'crons'
-tmux send-keys -t webdev_apihawk:6 "cd $WORKDIR" C-m
+tmux new-window -t $SESSION_NAME:6 -n 'crons'
+tmux send-keys -t $SESSION_NAME:6 "cd $WORKDIR" C-m
  
-tmux new-window -t webdev_apihawk:7 -n 'gearman'
-tmux send-keys -t webdev_apihawk:7 "cd $WORKDIR" C-m
+tmux new-window -t $SESSION_NAME:7 -n 'gearman'
+tmux send-keys -t $SESSION_NAME:7 "cd $WORKDIR" C-m
  
-tmux new-window -t webdev_apihawk:8 -n 'redis'
-tmux send-keys -t webdev_apihawk:8 "cd $WORKDIR" C-m
+tmux new-window -t $SESSION_NAME:8 -n 'redis'
+tmux send-keys -t $SESSION_NAME:8 "cd $WORKDIR" C-m
  
 
-tmux select-window -t webdev_apihawk:3
-tmux -2 attach-session -t webdev_apihawk
+tmux select-window -t $SESSION_NAME:3
+tmux -2 attach-session -t $SESSION_NAME
