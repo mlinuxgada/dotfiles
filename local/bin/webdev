@@ -1,9 +1,0 @@
-#!/bin/sh
-tmux new-session -d -s webdev
- 
-tmux new-window -t webdev:1 -n 'console' 'cd /storage_dev/projects/www/'
-tmux new-window -t webdev:2 -n 'mysql' 'mysql -u root'
-tmux new-window -t webdev:3 -n 'mas-kt_vim' 'cd /storage_dev/projects/www/' # && vim heavymetal/lib/config.php'
-  
-tmux select-window -t webdev:1
-tmux -2 attach-session -t webdev

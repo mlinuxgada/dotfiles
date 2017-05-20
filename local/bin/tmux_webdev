@@ -20,7 +20,7 @@ tmux new-window -t $SESSION_NAME:1 -n 'console'
 tmux send-keys -t $SESSION_NAME:1 "cd $WORKDIR" C-m
 
 tmux new-window -t $SESSION_NAME:2 -n 'mysql'
-tmux send-keys -t $SESSION_NAME:2 'mysql -u root; clear' C-m
+tmux send-keys -t $SESSION_NAME:2 'mysql -u root -h 127.0.0.1; clear' C-m
 
 tmux new-window -t $SESSION_NAME:3 -n 'vim'
 tmux send-keys -t $SESSION_NAME:3 "cd $WORKDIR; vim" C-m
