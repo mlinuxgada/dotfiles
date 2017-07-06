@@ -13,6 +13,9 @@ export BROWSER="firefox"
 export EDITOR="vim"
 export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin:${HOME}/.dots/local/bin"
 
+## for meganz
+export LD_LIBRARY_PATH="/usr/local/lib"
+
 #-----------------------------
 # Dircolors
 #-----------------------------
@@ -206,3 +209,10 @@ bindkey '^Z' fancy-ctrl-z
 
 # vim: set ts=2 sw=2 et:
 
+if test -z "${XDG_RUNTIME_DIR}"; then
+    export XDG_RUNTIME_DIR=/tmp/${UID}-runtime-dir
+    if ! test -d "${XDG_RUNTIME_DIR}"; then
+        mkdir "${XDG_RUNTIME_DIR}"
+        chmod 0700 "${XDG_RUNTIME_DIR}"
+    fi
+fi
