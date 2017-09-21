@@ -22,7 +22,7 @@ case "$group" in
 					close) 
 						export DISPLAY=:0
 						xhost +
-						su -c "DISPLAY=:0; xlock" mlinuxgada 2>> /tmp/udev.log &
+						su -c "DISPLAY=:0; xlock -mode matrix" mlinuxgada 2>> /tmp/udev.log &
 						hibernate-ram;;
 					open) :;;
 					*) uhd $*;;
