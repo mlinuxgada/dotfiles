@@ -11,7 +11,7 @@ SAVEHIST=1000
 export LANG="en_US.UTF-8"
 export BROWSER="firefox"
 export EDITOR="vim"
-export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin:${HOME}/.dots/local/bin"
+export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin"
 
 ## for meganz
 export LD_LIBRARY_PATH="/usr/local/lib"
@@ -60,6 +60,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 export MYSQL_PS1="mysql (\d)> "
 export TERM="xterm-256color"
 alias xterm="xterm -rv"
+alias xlock="xlock -mode matrix"
 
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
@@ -80,7 +81,7 @@ alias aws="aws --endpoint-url https://s3.icnhost.net"
 
 # ----- end of Upshot related aliases
 
-alias jpl='python -m json.tool | pygmentize -l json'
+alias jpp='python -m json.tool | pygmentize -l json'
 
 ### Golang related
 export GOPATH=/storage/projects/langs/go
