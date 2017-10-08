@@ -1,0 +1,14 @@
+circus
+google-chrome-dev
+libmysqlclient
+mysql
+mysql-clients
+php-amqp
+php-imagick
+php-redis
+postman-bin
+slack-desktop
+sublime-text-dev
+xorg-server-utils
+xorg-utils
+zoom
