@@ -9,6 +9,7 @@ php-redis
 postman-bin
 slack-desktop
 sublime-text-dev
+vlsub-git
 xorg-server-utils
 xorg-utils
 zoom

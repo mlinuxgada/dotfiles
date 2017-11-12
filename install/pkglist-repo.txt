@@ -47,7 +47,6 @@ ffmpegthumbnailer
 file
 filesystem
 findutils
-firefox
 flex
 freetype2
 galculator-gtk2
@@ -85,8 +84,8 @@ gvfs-nfs
 gvfs-smb
 gzip
 haveged
-hexchat
 htop
+i7z
 inetutils
 intel-ucode
 inxi
@@ -157,6 +156,7 @@ mhwd
 mhwd-db
 mhwd-tui
 mkinitcpio-openswap
+mkvtoolnix-cli
 mlocate
 mobile-broadband-provider-info
 modemmanager
@@ -210,6 +210,7 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 rabbitmq
+recode
 redis
 reiserfsprogs
 rsync
@@ -229,6 +230,7 @@ terminus-font
 texinfo
 thunderbird
 tilda
+timeset
 tlp
 tmux
 transmission-gtk
