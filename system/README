@@ -1,0 +1,2 @@
+Generating the package list: pacman -Qqe > package.list
+Installing from the package list: pacman -S $(cat package.list)
