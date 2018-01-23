@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd /tmp
+curl -O https://mirrors.kernel.org/archlinux/iso/latest/archlinux-bootstrap-2018.01.01-x86_64.tar.gz
+
+tar xzf ./archlinux-bootstrap-2018.01.01-x86_64.tar.gz
+
+/tmp/root.x86_64/bin/arch-chroot /tmp/root.x86_64/
+
+#mount --bind /tmp/root.x86_64 /tmp/root.x86_64
+
+#cd /tmp/root.x86_64
+#cp /etc/resolv.conf etc
+
+#mount -t proc /proc proc
+#mount --make-rslave --rbind /sys sys
+#mount --make-rslave --rbind /dev dev
+
+## (assuming /run exists on the system)
+#mount --make-rslave --rbind /run run
+
+#chroot /tmp/root.x86_64 /bin/bash
