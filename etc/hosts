@@ -1,11 +1,9 @@
-#
-# /etc/hosts: static lookup table for host names
-#
+# Static table lookup for hostnames.
+# See hosts(5) for details.
 
-#<ip-address>	<hostname.domain.org>	<hostname>
 127.0.0.1	localhost.localdomain	localhost
-127.0.1.1	ishamael.localdomain	ishamael
 ::1		localhost.localdomain	localhost
+127.0.1.1	isheamayel.localdomain	isheamayel
 
 127.0.0.1	0.dev.php56.mlinuxgada.info st.0.dev.php56.mlinuxgada.info m.0.dev.php56.mlinuxgada.info 
 127.0.0.1	1.dev.php56.mlinuxgada.info st.1.dev.php56.mlinuxgada.info m.1.dev.php56.mlinuxgada.info 
@@ -21,8 +19,19 @@
 127.0.0.1	pplanner.article_scoring
 127.0.0.1	mihail.postplanner.com
 
+127.0.0.1	zf2_rest_test.localhost
 127.0.0.1	apigility_test.localhost
 127.0.0.1	apihawk_primeengine.localhost
+127.0.0.1	apihawk_hostpulse.localhost
 127.0.0.1	apihawk_document_manager.localhost
+127.0.0.1 	apihawk_nabed_api.localhost
+127.0.0.1 	apihawk_gear.localhost
+127.0.0.1 	apihawk_cms.localhost
 
-# End of file
+127.0.0.1	0.sigma_dev st.0.sigma_dev m.0.sigma_dev
+127.0.0.1	0.odin st.0.odin m.0.odin
+
+127.0.0.1	personal_site.localhost
+
+192.168.0.3	vihren-desktop.local
+
