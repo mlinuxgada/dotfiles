@@ -8,6 +8,7 @@ app-editors/vim X bash-completion lua
 dev-lang/php:5.6 bcmath ftp soap pcntl imap pdo zip sharedmem sockets xmlreader xmlwriter cgi kerberos truetype gmp
 dev-lang/php:7.0 bcmath ftp soap pcntl imap pdo zip threads sockets xmlreader xmlwriter cgi kerberos truetype ldap gmp
 dev-lang/php:7.1 bcmath ftp soap pcntl imap pdo zip threads sockets xmlreader xmlwriter cgi kerberos truetype ldap gmp
+dev-lang/php:7.2 bcmath ftp soap pcntl imap pdo zip threads sockets xmlreader xmlwriter cgi kerberos truetype ldap gmp
 >=media-gfx/imagemagick-6.9.4.7 -openmp
 
 #dev-php/xdebug  php5-6 php7-0 php7-1

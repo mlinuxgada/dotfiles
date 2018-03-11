@@ -1,4 +1,3 @@
-
 x11-base/xorg-server xvfb
 
 net-fs/autofs ldap
