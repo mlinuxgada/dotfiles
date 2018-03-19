@@ -25,12 +25,17 @@ fi
 
 recode cp1251 $subFileName
 
+echo "===>>> Removing all sub chans from  ${videoFileFull}."
+mkvmerge -o __$videoFileName.mkv --no-subtitles $videoFileFull  
+
 echo "===>>> Converting the ${subFileName} to utf8 done!!!"
 
 echo "===>>> Merging"
 
 mkvmerge -o _$videoFileName.mkv  \
-            $videoFileFull  \
+            __$videoFileName.mkv  \
             $subFileName
+
+rm __$videoFileName.mkv
 
 echo "===>>> Done"
