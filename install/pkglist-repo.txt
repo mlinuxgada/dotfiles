@@ -51,8 +51,8 @@ flex
 freetype2
 galculator-gtk2
 gawk
-gcc-libs-multilib
-gcc-multilib
+gcc
+gcc-libs
 gconf
 gettext
 gimp
@@ -197,7 +197,6 @@ php-fpm
 php-gd
 php-imap
 php-intl
-php-mcrypt
 php-memcache
 php-tidy
 pidgin
@@ -209,6 +208,7 @@ psmisc
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
+python2-setuptools
 rabbitmq
 recode
 redis

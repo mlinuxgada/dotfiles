@@ -1,10 +1,12 @@
 circus
 google-chrome-dev
 libmysqlclient
+mkchromecast
 mysql
 mysql-clients
 php-amqp
 php-imagick
+php-mcrypt
 php-redis
 postman-bin
 slack-desktop
