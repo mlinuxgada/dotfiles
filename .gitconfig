@@ -7,3 +7,13 @@
 	default = current
 [pull]
 	default = current
+[http "https://aahframework.org"]
+	followRedirects = true
+[http "https://gopkg.in"]
+	followRedirects = true
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[url "git@bitbucket.org:"]
+    insteadOf = https://bitbucket.org/
+[url "git@git.apihawk.tech:"]
+    insteadOf = https://git.apihawk.tech/
