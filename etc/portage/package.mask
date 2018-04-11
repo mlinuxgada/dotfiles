@@ -7,5 +7,5 @@
 
 >media-gfx/wkhtmltopdf-0.12.2.1
 
->app-editors/vim-8.0.1475
-<app-editors/vim-8.0.1475
+#>app-editors/vim-8.0.1475
+#<app-editors/vim-8.0.1475
