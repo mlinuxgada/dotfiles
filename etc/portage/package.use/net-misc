@@ -1,2 +1,2 @@
 net-misc/wicd -nls
-net-misc/connman nftables
+net-misc/connman nftables pptp openvpn l2tp
