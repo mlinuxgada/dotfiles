@@ -12,10 +12,6 @@
 #  gnome-settings-daemon &
 #fi
 
-# If you want to use XFCE config tools...
-#
-#xfce-mcs-manager &
-
 ##### set the keyboard to use us and bg phonetic layouts
 setxkbmap -layout 'us,bg' -variant ',phonetic' -option 'grp:alt_shift_toggle,grp_led:scroll'
 #nitrogen --restore &
@@ -29,22 +25,16 @@ tint2 &
 ##### start conky system nonitoring GUI app
 #conky &
 
-##### start wicd, the GTK verion, to be able to connect with wifi
-#wicd-gtk &
-
 ##### start firefox, messengers and tilda console app ;-))))
+/opt/portable_apps/firefox/firefox &
 google-chrome-unstable &
-#/opt/portable_apps/firefoxX86/firefox &
-#/opt/portable_apps/copy_com/CopyAgent &
-megasync & 
+#megasync &
 java -jar /opt/portable_apps/PassGen.jar &
-skype &
 pidgin &
-slack &
 
 tilda &
-connman-ui-gtk &
-/opt/portable_apps/postman/Postman &
+nm-applet &
+/opt/portable_apps/Postman/Postman &
 /opt/portable_apps/thunderbird/thunderbird-bin &
-thunar & 
+pcmanfm &
 subl3 &
