@@ -2,3 +2,4 @@ media-video/mplayer pulseaudio
 media-video/smplayer qt4 streaming
 
 media-video/vlc rtsp stream nsplugin upnp truetype -qt4
+media-video/ffmpeg fdk
