@@ -236,7 +236,7 @@
     </keybind>
     <keybind key="Print">
       <action name="Execute">
-          <command>sh -c "import -window root /tmp/$(date '+%Y%m%d-%H%M%S').png"</command>
+        <command>sh -c "import -window root /tmp/$(date '+%Y%m%d-%H%M%S').png"</command>
       </action>
     </keybind>
     <keybind key="W-F3">
