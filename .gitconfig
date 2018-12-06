@@ -8,8 +8,6 @@
 	tool = vimdiff
 [push]
 	default = current
-[pull]
-	default = current
 [http "https://aahframework.org"]
 	followRedirects = true
 [http "https://gopkg.in"]
