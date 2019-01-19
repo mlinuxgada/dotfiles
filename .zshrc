@@ -164,37 +164,20 @@ zstyle ':vcs_info:*' enable git hg
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:git*' formats "%{${fg[cyan]}%}[%{${fg[green]}%}%s%{${fg[cyan]}%}][%{${fg[blue]}%}%r/%S%%{${fg[cyan]}%}][%{${fg[blue]}%}%b%{${fg[yellow]}%}%m%u%c%{${fg[cyan]}%}]%{$reset_color%}"
 
-setprompt() {
-  # load some modules
-  setopt prompt_subst
 
-  # make some aliases for the colours: (coud use normal escap.seq's too)
-  for color in RED GREEN YELLOW BLUE MAGENTA CYAN WHITE; do
-    eval PR_$color='%{$fg[${(L)color}]%}'
-  done
-  PR_NO_COLOR="%{$terminfo[sgr0]%}"
+# enable substitution for prompt
+setopt prompt_subst
 
-  # Check the UID
-  if [[ $UID -ge 1000 ]]; then # normal user
-    eval PR_USER='${PR_GREEN}%n${PR_NO_COLOR}'
-    eval PR_USER_OP='${PR_GREEN}%#${PR_NO_COLOR}'
-  elif [[ $UID -eq 0 ]]; then # root
-    eval PR_USER='${PR_RED}%n${PR_NO_COLOR}'
-    eval PR_USER_OP='${PR_RED}%#${PR_NO_COLOR}'
-  fi
+if [[ $EUID -ne 0 ]]; then
+	# Prompt (on left side) similar to default bash prompt, or redhat zsh prompt with colors
+	#PROMPT="%(!.%{$fg[red]%}[%n@%m %1~]%{$reset_color%}# .%{$fg[green]%}[%n@%m %1~]%{$reset_color%}$ "
+	# Maia prompt
+	PROMPT="%B%{$fg[cyan]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[cyan]%}>%B%(?.%{$fg[cyan]%}.%{$fg[cyan]%})>%{$reset_color%}%b $ " # Print some system information when the shell is first started
 
-  # Check if we are on SSH or not
-  if [[ -n "$SSH_CLIENT"  ||  -n "$SSH2_CLIENT" ]]; then 
-    eval PR_HOST='${PR_YELLOW}%M${PR_NO_COLOR}' #SSH
-  else 
-    eval PR_HOST='${PR_GREEN}%M${PR_NO_COLOR}' # no SSH
-  fi
-  # set the prompt
-  PS1=$'${PR_CYAN}[${PR_USER}${PR_CYAN}@${PR_HOST}${PR_CYAN}][${PR_BLUE}%~${PR_CYAN}]${PR_USER_OP} '
-  PS2=$'%_>'
-  RPROMPT=$'${vcs_info_msg_0_}'
-}
-setprompt
+else 
+
+	PROMPT="%B%{$fg[cyan]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[cyan]%}>%B%(?.%{$fg[cyan]%}.%{$fg[red]%})>%{$reset_color%}%b # " # Print some system information when the shell is first started
+fi
 
 fancy-ctrl-z () {
   if [[ $#BUFFER -eq 0 ]]; then
