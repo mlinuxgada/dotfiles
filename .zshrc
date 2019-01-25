@@ -176,7 +176,7 @@ if [[ $EUID -ne 0 ]]; then
 
 else 
 
-	PROMPT="%B%{$fg[cyan]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[cyan]%}>%B%(?.%{$fg[cyan]%}.%{$fg[red]%})>%{$reset_color%}%b # " # Print some system information when the shell is first started
+	PROMPT="%B%{$fg[red]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[red]%}>%B%(?.%{$fg[red]%}.%{$fg[red]%})>%{$reset_color%}%b # " # Print some system information when the shell is first started
 fi
 
 fancy-ctrl-z () {
