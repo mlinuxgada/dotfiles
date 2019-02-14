@@ -172,11 +172,11 @@ if [[ $EUID -ne 0 ]]; then
 	# Prompt (on left side) similar to default bash prompt, or redhat zsh prompt with colors
 	#PROMPT="%(!.%{$fg[red]%}[%n@%m %1~]%{$reset_color%}# .%{$fg[green]%}[%n@%m %1~]%{$reset_color%}$ "
 	# Maia prompt
-	PROMPT="%B%{$fg[cyan]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[cyan]%}>%B%(?.%{$fg[cyan]%}.%{$fg[cyan]%})>%{$reset_color%}%b $ " # Print some system information when the shell is first started
+	PROMPT="%(!.%{%F{cyan}%}.)$USER@%{$fg_bold[cyan]%}%M %{$fg_bold[red]%} %B%{$fg[cyan]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[cyan]%}>%B%(?.%{$fg[cyan]%}.%{$fg[cyan]%})>%{$reset_color%}%b $ " # Print some system information when the shell is first started
 
 else 
 
-	PROMPT="%B%{$fg[red]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[red]%}>%B%(?.%{$fg[red]%}.%{$fg[red]%})>%{$reset_color%}%b # " # Print some system information when the shell is first started
+	PROMPT="%(!.%{%F{cyan}%}.)$USER@%{$fg_bold[red]%}%M %B%{$fg[red]%}%(4~|%-1~/.../%2~|%~)%u%b >%{$fg[red]%}>%B%(?.%{$fg[red]%}.%{$fg[red]%})>%{$reset_color%}%b # " # Print some system information when the shell is first started
 fi
 
 RPROMPT='$(git_prompt_string)'
