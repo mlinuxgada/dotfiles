@@ -6,6 +6,9 @@
 deb http://deb.debian.org/debian/ unstable main contrib non-free
 deb-src http://deb.debian.org/debian/ unstable main contrib non-free
 
+##### mainly libcurl3 ... in sid, there are no security updated ;-))
+deb http://security.debian.org/debian-security stretch/updates main
+
 #------------------------------------------------------------------------------#
 #                      UNOFFICIAL  REPOS                       
 #------------------------------------------------------------------------------#
