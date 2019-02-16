@@ -23,6 +23,8 @@ media-libs/gegl cairo
 dev-libs/libxml2 icu
 xfce-base/thunar udisks
 
+net-wireless/bluez alsa btpclient mesh obex readline udev deprecated #user-session
+
 net-p2p/transmission -qt4 utp
 www-plugins/adobe-flash 32bit
 sys-libs/zlib minizip
@@ -65,3 +67,6 @@ sys-kernel/debian-sources binary
 app-crypt/gcr vala
 
 >=virtual/imap-c-client-2 kerberos
+
+### for claws-mail
+>=dev-libs/libdbusmenu-16.04.0 gtk3
