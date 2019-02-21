@@ -73,6 +73,7 @@ alias xlock="xlock -mode matrix"
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
 alias mpv_hdmi="mpv -ao=alsa:device='[hw:0,3]' "
+alias rsync="rsync --info=progress2"
 
 # ----- Upshot related gobal vars/aliases
 export MAS_KT="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas-kt"
@@ -94,6 +95,9 @@ alias jpp='python -m json.tool | pygmentize -l json'
 ### Golang related
 export GOPATH=/storage/projects/langs/go
 export PATH=$PATH:$GOPATH/bin
+
+## NodeJS
+source /usr/share/nvm/init-nvm.sh
 
 # Theming section  
 autoload -U compinit colors zcalc
@@ -238,3 +242,4 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
   		ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
     ;;
 esac
+
