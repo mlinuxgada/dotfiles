@@ -1,0 +1,7 @@
+#!/usr/local/bin/bash
+
+for fstab_dir in "/var" "/tmp" "/home" "/usr/obj" "/var/crash" "/var/tmp" "/"; 
+do 
+	hammer prune-everything $fstab_dir; 
+	hammer reblock $fstab_dir; 
+done
