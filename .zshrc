@@ -83,6 +83,9 @@ alias aws="aws --endpoint-url https://s3.icnhost.net"
 
 alias jpp='python -m json.tool | pygmentize -l json'
 
+## DFBSD aliases
+alias top="top -M"
+
 ### Golang related
 export GOPATH=/storage/projects/langs/go
 export PATH=$PATH:$GOPATH/bin
