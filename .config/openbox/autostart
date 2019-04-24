@@ -25,16 +25,15 @@ tint2 &
 ##### start conky system nonitoring GUI app
 #conky &
 
+##### messengers, all shit ...
+slack
+
 ##### start firefox, messengers and tilda console app ;-))))
-/opt/portable_apps/firefox/firefox &
-google-chrome-unstable &
+google-chrome-stable &
 #megasync &
-java -jar /opt/portable_apps/PassGen.jar &
-pidgin &
+#java -jar /opt/portable_apps/PassGen.jar &
 
 tilda &
 nm-applet &
-/opt/portable_apps/Postman/Postman &
-/opt/portable_apps/thunderbird/thunderbird-bin &
 pcmanfm &
-subl3 &
+subl &
