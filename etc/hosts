@@ -1,14 +1,14 @@
 127.0.0.1	localhost
-127.0.1.1	shaytan.tangra	shaytan
+127.0.1.1	debian.tangra	debian
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
-127.0.0.1	webgrind 
-127.0.0.1	personal_site.localhost
-127.0.0.1	go-rest.localhost
+127.0.0.1       webgrind
+127.0.0.1       personal_site.localhost
+127.0.0.1       go-rest.localhost
 
 ## EvoBits
 127.0.0.1       evobits.coinpay-api.localhost
@@ -16,6 +16,9 @@ ff02::2 ip6-allrouters
 127.0.0.1       evobits.feadminang.localhost
 127.0.0.1       evobits.magento230.localhost
 127.0.0.1       evobits.woocommerce.localhost
+127.0.0.1       evobits.exchange_fe.localhost
+127.0.0.1	evobits.oauth2_server.localhost
+
 127.0.0.1       ether_rpc
 #172.16.1.101   ether_rpc
 
@@ -24,3 +27,6 @@ ff02::2 ip6-allrouters
 35.205.199.46   magento230.coinpay.co
 35.205.199.46   woocommerce.coinpay.co
 
+### evo dev servers
+185.154.158.40 evo_elk
+185.154.158.41 evo_oauth2
