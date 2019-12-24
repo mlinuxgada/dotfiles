@@ -13,6 +13,7 @@
 #fi
 
 xset -dpms &
+xset s off &
 
 ##### set the keyboard to use us and bg phonetic layouts
 setxkbmap -layout 'us,bg' -variant ',phonetic' -option 'grp:alt_shift_toggle,grp_led:scroll' &
