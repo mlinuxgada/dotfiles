@@ -11,7 +11,7 @@ SAVEHIST=1000
 export LANG="en_US.UTF-8"
 export BROWSER="firefox"
 export EDITOR="vim"
-export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin"
+export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin:/snap/bin"
 
 ## for meganz
 export LD_LIBRARY_PATH="/usr/local/lib"

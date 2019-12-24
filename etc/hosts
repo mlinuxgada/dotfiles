@@ -1,5 +1,5 @@
 127.0.0.1	localhost
-127.0.1.1       debian.tangra   debian
+127.0.1.1	debian-DELL-G5.tangra	debian-DELL-G5
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     localhost ip6-localhost ip6-loopback
@@ -15,6 +15,9 @@ ff02::2 ip6-allrouters
 127.0.0.1       personal_site.localhost
 127.0.0.1       go-rest.localhost
 
+#### PERSONAL STUFF
+127.0.0.1	my.laravel.test.localhost
+
 ## EvoBits
 127.0.0.1       evobits.coinpay-api.localhost
 127.0.0.1       evobits.feangular.localhost
@@ -26,6 +29,9 @@ ff02::2 ip6-allrouters
 127.0.0.1       evobits.dc_admin.localhost
 127.0.0.1	evobits.fin_slim.localhost
 127.0.0.1	evobits.lottouser.localhost
+127.0.0.1	evobits.rigs_info_api.localhost
+127.0.0.1	evobits.f42.localhost
+127.0.0.1	evobits.f42_admin.localhost
 
 127.0.0.1       ether_rpc
 #172.16.1.101   ether_rpc
@@ -36,7 +42,6 @@ ff02::2 ip6-allrouters
 35.205.199.46   woocommerce.coinpay.co
 
 ### evo dev servers
-185.154.158.40 evobits.elk
 185.154.158.41 evobits.oauth2
 185.154.158.41 evobits.dc_admin # port 81
 185.154.159.171 evobits.snmp_stats # port 9393
@@ -44,5 +49,13 @@ ff02::2 ip6-allrouters
 185.154.158.53 evobits.invoice # port 81
 
 185.154.158.60 evobits.lottouser_dev
-213.173.107.5  evobits.lottouser_production
+213.173.107.5  evobits.lottouser_production # td-agent - nginx logger
 
+# elk and subnodes
+185.154.158.40 evobits.elk # elastic, kibana, elastalert, td-agent/dev, stopped atm/
+185.154.158.62 evobits.td-agent1.prod # production td-agent - laravel, monolo, nginx
+213.173.107.7 evobits.td-agent2.prod # production td-agent - framework-42/laravel/, nginx, syslog
+213.173.107.6 evobits.td-agent3.prod # nginx, monolog, geth, syslog
+
+##
+185.154.158.42 evobits.rigs_info_api
