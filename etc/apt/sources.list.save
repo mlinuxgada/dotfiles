@@ -7,7 +7,7 @@ deb http://deb.debian.org/debian/ sid main contrib non-free
 deb-src http://deb.debian.org/debian/ sid main contrib non-free
 
 ##### mainly libcurl3 ... in sid, there are no security updated ;-))
-deb http://security.debian.org/debian-security buster/updates main
+deb http://security.debian.org/debian-security stretch/updates main
 
 #------------------------------------------------------------------------------#
 #                      UNOFFICIAL  REPOS                       
@@ -16,5 +16,3 @@ deb http://security.debian.org/debian-security buster/updates main
 ###### 3rd Party Binary Repos
 ###Steam
 deb [arch=i386,amd64] http://repo.steampowered.com/steam/ precise steam
-deb https://dl.winehq.org/wine-builds/debian/ sid main
-# deb-src https://dl.winehq.org/wine-builds/debian/ buster main
