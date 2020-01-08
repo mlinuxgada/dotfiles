@@ -11,7 +11,7 @@ SAVEHIST=1000
 export LANG="en_US.UTF-8"
 export BROWSER="firefox"
 export EDITOR="vim"
-export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin"
+export PATH="${PATH}:${HOME}/bin:$HOME/.config/composer/vendor/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin:/snap/bin:/snap/wine-platform-4-stable/current/opt/wine-stable/bin"
 
 ## for meganz
 export LD_LIBRARY_PATH="/usr/local/lib"
@@ -85,7 +85,7 @@ alias jpp='python -m json.tool | pygmentize -l json'
 
 ### Golang related
 export GOPATH=/storage/projects/langs/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin:/storage/opt/go1_13_5/bin
 #------------------------------
 # ShellFuncs
 #------------------------------
