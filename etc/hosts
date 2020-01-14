@@ -17,6 +17,7 @@ ff02::2 ip6-allrouters
 
 #### PERSONAL STUFF
 127.0.0.1	my.laravel.test.localhost
+127.0.0.1	my.techpods.calc.localhost
 
 ## EvoBits
 127.0.0.1       evobits.coinpay-api.localhost
