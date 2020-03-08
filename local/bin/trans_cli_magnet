@@ -1,0 +1,18 @@
+#!/bin/bash
+
+hashStr=$1
+downloadDir=$2
+
+if [ -z "$hashStr" ]
+then
+    echo "No hash defined ....exitting!!!"
+    exit
+fi
+
+if [ -z "$downloadDir" ]
+then
+    echo "No download dir defined .... using current"
+    downloadDir="./"
+fi
+
+transmission-cli magnet:?xt=urn:btih:$hashStr -w $downloadDir

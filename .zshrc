@@ -62,9 +62,13 @@ export TERM="xterm-256color"
 alias xterm="xterm -rv"
 alias xlock="xlock -mode matrix"
 
+## debian related X lock 
+alias lock="dm-tool switch-to-greeter"
+
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
 alias mpv_hdmi="mpv -ao=alsa:device='[hw:0,3]' "
+    alias trans_manget="transmission-cli magnet:?xt=urn:btih:$1 -w ./"
 
 # ----- Upshot related gobal vars/aliases
 export MAS_KT="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas-kt"

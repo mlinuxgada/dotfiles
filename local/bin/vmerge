@@ -17,6 +17,9 @@ then
 elif [ -e "${videoFileName}.srt" ]
 then
     subFileName="${videoFileName}.srt"
+elif [ -e "${videoFileName}.sub" ]
+then
+    subFileName="${videoFileName}.sub"
 else 
     echo "No sub files here!!!"
     exit
