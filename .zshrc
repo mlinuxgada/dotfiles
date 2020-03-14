@@ -16,6 +16,9 @@ export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin:${HOME}/.d
 ## for meganz
 export LD_LIBRARY_PATH="/usr/local/lib"
 
+## ports related
+export PORTSDIR=/usr/dports
+
 #-----------------------------
 # Dircolors
 #-----------------------------
