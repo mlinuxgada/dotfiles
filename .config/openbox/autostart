@@ -32,7 +32,7 @@ google-chrome-unstable &
 java -jar /opt/portable_apps/PassGen.jar &
 pidgin &
 
-tilda &
+tilda -g ~/.config/tilda/config &
 nm-applet &
 /opt/portable_apps/Postman/Postman &
 /opt/portable_apps/thunderbird/thunderbird-bin &
