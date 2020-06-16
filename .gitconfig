@@ -20,3 +20,5 @@
     insteadOf = https://git.apihawk.tech/
 [url "git@git.evobitsit.com:"]
     insteadOf = https://git.evobitsit.com/
+[pull]
+	rebase = false

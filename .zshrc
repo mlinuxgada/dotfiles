@@ -9,15 +9,12 @@ SAVEHIST=1000
 # Variables
 #------------------------------
 export LANG="en_US.UTF-8"
-export BROWSER="firefox"
+export BROWSER="chromium"
 export EDITOR="vim"
 export PATH="${PATH}:${HOME}/bin:${HOME}/.cabal/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin"
 
 ## for meganz
 export LD_LIBRARY_PATH="/usr/local/lib"
-
-## ports related
-export PORTSDIR=/usr/dports
 
 #-----------------------------
 # Dircolors
@@ -59,7 +56,7 @@ bindkey "\eOF" end-of-line
 alias ls="ls -lah"
 alias ll="ls -lh"
 alias emacs='emacs -nw'
-alias tmux="TERM=screen-256color-bce tmux"
+alias tmux="TERM=screen-256color tmux"
 export MYSQL_PS1="mysql (\d)> "
 export TERM="xterm-256color"
 alias xterm="xterm -rv"
@@ -87,7 +84,7 @@ alias aws="aws --endpoint-url https://s3.icnhost.net"
 alias jpp='python -m json.tool | pygmentize -l json'
 
 ## DFBSD aliases
-alias top="top -M"
+alias top="top -P"
 
 ### Golang related
 export GOPATH=/storage/projects/langs/go
