@@ -89,7 +89,7 @@ alias jpp='python -m json.tool | pygmentize -l json'
 
 ### Golang related
 export GOPATH=/storage/projects/langs/go
-export PATH=$PATH:$GOPATH/bin:/storage/opt/go1_13_5/bin
+export PATH=$PATH:$GOPATH/bin:/storage/opt/go1_15_2/bin
 #------------------------------
 # ShellFuncs
 #------------------------------
