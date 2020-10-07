@@ -60,3 +60,13 @@ ff02::2 ip6-allrouters
 
 ##
 185.154.158.42 evobits.rigs_info_api
+
+## INOUT related ###
+127.0.0.1	inout.is.localhost
+127.0.0.1	inout.is.api.localhost
+127.0.0.1	inout.is.api.test
+212.25.61.61	inout.public
+
+# Kamion related
+#127.0.0.1	kamion.api.localhost
+172.16.1.102	kamion.api.localhost
