@@ -11,7 +11,17 @@ SAVEHIST=1000
 export LANG="en_US.UTF-8"
 export BROWSER="firefox"
 export EDITOR="vim"
-export PATH="${PATH}:${HOME}/bin:$HOME/.config/composer/vendor/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin:/snap/bin:/snap/wine-platform-4-stable/current/opt/wine-stable/bin"
+
+# Core PATH
+PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+PATH="${PATH}:${HOME}/bin:$HOME/.config/composer/vendor/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin:/snap/bin:/snap/wine-platform-4-stable/current/opt/wine-stable/bin"
+
+### Golang related
+export GOPATH=/storage/projects/langs/go
+export PATH=$PATH:$GOPATH/bin:/storage/opt/go1_15_5/bin
+
+# remove duplicate from path
+typeset -U PATH path
 
 ## for meganz
 export LD_LIBRARY_PATH="/usr/local/lib"
@@ -68,7 +78,7 @@ alias lock="dm-tool switch-to-greeter"
 alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
 alias mpv_hdmi="mpv -ao=alsa:device='[hw:0,3]' "
-    alias trans_manget="transmission-cli magnet:?xt=urn:btih:$1 -w ./"
+alias trans_manget="transmission-cli magnet:?xt=urn:btih:$1 -w ./"
 
 # ----- Upshot related gobal vars/aliases
 export MAS_KT="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas-kt"
@@ -87,9 +97,6 @@ alias aws="aws --endpoint-url https://s3.icnhost.net"
 
 alias jpp='python -m json.tool | pygmentize -l json'
 
-### Golang related
-export GOPATH=/storage/projects/langs/go
-export PATH=$PATH:$GOPATH/bin:/storage/opt/go1_15_2/bin
 #------------------------------
 # ShellFuncs
 #------------------------------
