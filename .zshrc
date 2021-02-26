@@ -20,6 +20,10 @@ PATH="${PATH}:${HOME}/bin:$HOME/.config/composer/vendor/bin:${HOME}/local/bin:${
 export GOPATH=/storage/projects/langs/go
 export PATH=$PATH:$GOPATH/bin:/storage/opt/go1_15_5/bin
 
+### NVM related
+export NVM_DIR=~/.nvm
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
 # remove duplicate from path
 typeset -U PATH path
 
