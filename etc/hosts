@@ -66,6 +66,7 @@ ff02::2 ip6-allrouters
 127.0.0.1	inout.is.api.localhost
 127.0.0.1	inout.is.api.test
 212.25.61.61	inout.public
+127.0.0.1	opencart23.inout.localhost
 
 # Kamion related
 #127.0.0.1	kamion.api.localhost
