@@ -1,13 +1,13 @@
-#!/usr/bin/python2.7
+#!/usr/bin/python3
 
 import hashlib
 import getpass
 import base64
 
-inputValue  = raw_input('Enter String to hash: ')
+inputValue  = input('Enter String to hash: ')
 inputSalt   = getpass.getpass('Enter Master Password to hash: ')
 unencrypted = inputValue + inputSalt
 
-hash        = base64.b64encode(hashlib.sha1(unencrypted.encode()).digest())
+hash        = base64.b64encode(hashlib.sha1(unencrypted.encode()).digest()).decode()
 
 print(hash[11:28])

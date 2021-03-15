@@ -13,11 +13,11 @@
 #fi
 
 ##### set the keyboard to use us and bg phonetic layouts
-setxkbmap -layout 'us,bg' -variant ',phonetic' -option 'grp:alt_shift_toggle,grp_led:scroll'
+setxkbmap -layout 'us,bg' -variant ',phonetic' -option 'grp:alt_shift_toggle,grp_led:scroll' &
 #nitrogen --restore &
 
 ##### use feh to setup the desktop wallpaper properly
-feh --bg-scale ~/.config/openbox/wallpapers/openbox_wallpaper_by_ed1w2ard-d30tv1l.jpg
+feh --bg-scale ~/.config/openbox/wallpapers/openbox_wallpaper_by_ed1w2ard-d30tv1l.jpg &
 
 ##### start tint2 taskbar
 tint2 &
@@ -27,7 +27,7 @@ tint2 &
 
 ##### start firefox, messengers and tilda console app ;-))))
 /opt/portable_apps/firefox/firefox &
-google-chrome-unstable &
+google-chrome-stable &
 #megasync &
 java -jar /opt/portable_apps/PassGen.jar &
 pidgin &
