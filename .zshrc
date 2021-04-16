@@ -14,7 +14,7 @@ export EDITOR="vim"
 
 # Core PATH
 PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
-PATH="${PATH}:${HOME}/bin:$HOME/.config/composer/vendor/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin:/snap/bin:/snap/wine-platform-4-stable/current/opt/wine-stable/bin"
+PATH="${PATH}:${HOME}/bin:$HOME/.config/composer/vendor/bin:${HOME}/local/bin:${HOME}/.dots/local/bin:${HOME}/.local/bin:/snap/bin:/snap/wine-platform-6-staging/current/opt/wine-staging/bin"
 
 ### Golang related
 export GOPATH=/storage/projects/langs/go
@@ -274,3 +274,5 @@ if test -z "${XDG_RUNTIME_DIR}"; then
         chmod 0700 "${XDG_RUNTIME_DIR}"
     fi
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
