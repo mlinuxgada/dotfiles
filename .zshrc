@@ -18,7 +18,7 @@ PATH="${PATH}:${HOME}/bin:$HOME/.config/composer/vendor/bin:${HOME}/local/bin:${
 
 ### Golang related
 export GOPATH=/storage/projects/langs/go
-export PATH=$PATH:$GOPATH/bin:/storage/opt/go1_15_5/bin
+export PATH=$PATH:$GOPATH/bin:/storage/opt/go/bin
 
 ### NVM related
 export NVM_DIR=~/.nvm
@@ -72,7 +72,7 @@ alias ll="ls -lh"
 alias emacs='emacs -nw'
 alias tmux="TERM=screen-256color-bce tmux"
 export MYSQL_PS1="mysql (\d)> "
-export TERM="xterm-256color"
+export TERM="screen-256color-bce"
 alias xterm="xterm -rv"
 alias xlock="xlock -mode matrix"
 

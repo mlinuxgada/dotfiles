@@ -1,0 +1,16 @@
+#!/bin/bash
+
+folder="$HOME/.local"
+filename="nvim-linux64.tar.gz"
+url="https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz"
+
+pushd "$folder"
+    rm -rf "$folder/nvim-linux64"
+    rm -f "$folder/bin/nnvim"
+    wget -q "$url"
+    tar xvf "$filename"
+    ln -fs "$folder/nvim-linux64/bin/nvim" "$folder/bin/nnvim"
+    rm "$filename"
+popd
+
+echo "NeoVIM updated to latest master"
