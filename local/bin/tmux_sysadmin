@@ -1,0 +1,29 @@
+#!/bin/sh
+
+if [ "$#" -ne 1 ]; 
+then 
+    WORKDIR=`pwd`
+else 
+    WORKDIR=$1
+fi
+
+if [ "$#" -ne 2 ]; 
+then 
+    SESSION_NAME=${PWD##*/}
+else 
+    SESSION_NAME=$2
+fi
+
+tmux new-session -d -s $SESSION_NAME
+ 
+tmux new-window -t $SESSION_NAME:1 -n 'console'
+tmux send-keys -t $SESSION_NAME:1 "cd $WORKDIR" C-m
+
+tmux new-window -t $SESSION_NAME:2 -n 'monitor'
+tmux send-keys -t $SESSION_NAME:2 "htop" C-m
+
+tmux new-window -t $SESSION_NAME:3 -n 'apt'
+tmux send-keys -t $SESSION_NAME:3 "cd $WORKDIR" C-m
+
+tmux select-window -t $SESSION_NAME:2
+tmux -2 attach-session -t $SESSION_NAME
