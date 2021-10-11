@@ -5,12 +5,15 @@ filename="nvim-linux64.tar.gz"
 url="https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz"
 
 pushd "$folder"
-    rm -rf "$folder/nvim-linux64"
-    rm -f "$folder/bin/nnvim"
-    wget -q "$url"
-    tar xvf "$filename"
-    ln -fs "$folder/nvim-linux64/bin/nvim" "$folder/bin/nnvim"
-    rm "$filename"
+    if wget -q "$url"; then 
+        rm -rf "$folder/nvim-linux64"
+        rm -f "$folder/bin/nnvim"
+        tar xvf "$filename"
+        ln -fs "$folder/nvim-linux64/bin/nvim" "$folder/bin/nnvim"
+        rm "$filename"
+    else
+        echo "cant download NeoVim from url: $url"
+    fi
 popd
 
 echo "NeoVIM updated to latest master"
