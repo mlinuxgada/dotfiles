@@ -94,7 +94,7 @@ alias jpp='python -m json.tool | pygmentize -l json'
 
 ### Golang related
 export GOPATH=/storage/projects/langs/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin:/storage/opt/go/bin
 
 ### JS related
 source /usr/share/nvm/init-nvm.sh
