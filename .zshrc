@@ -83,14 +83,17 @@ alias frodo="ssh misho@masbg.com -p 53022"
 alias dfbsd="ssh mlinuxgada@dev.mlinuxgada.info -p 668"
 alias upshot_databases="mysql -h 174.36.83.133 -u office_readonly"
 
-## aws icn related
-alias aws="aws --endpoint-url https://s3.icnhost.net"
-
-# end of aws icn related
-
 # ----- end of Upshot related aliases
 
 alias jpp='python -m json.tool | pygmentize -l json'
+
+# ---- Loadsmart start ------ #
+#
+alias kprod='kubectl --context=arn:aws:eks:us-east-1:845156828388:cluster/ls-main-cluster-production -n carrier-saas'
+alias ksb='kubectl --context=arn:aws:eks:us-east-1:845156828388:cluster/ls-main-cluster-sandbox -n carrier-saas'
+alias kqa='kubectl --context=arn:aws:eks:us-east-1:571579881413:cluster/ls-main-cluster-qa -n carrier-saas'
+
+# ---- Loadsmart end   ------ #
 
 ### Golang related
 export GOPATH=/storage/projects/langs/go
@@ -236,3 +239,5 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
   		ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
     ;;
 esac
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -107,6 +107,10 @@ alias ls="ls -lah"
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
 alias emacs='emacs -nw'
 
+alias kprod='kubectl --context=arn:aws:eks:us-east-1:845156828388:cluster/ls-main-cluster-production -n carrier-saas'
+alias ksb='kubectl --context=arn:aws:eks:us-east-1:845156828388:cluster/ls-main-cluster-sandbox -n carrier-saas'
+alias kqa='kubectl --context=arn:aws:eks:us-east-1:571579881413:cluster/ls-main-cluster-qa -n carrier-saas'
+
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo
