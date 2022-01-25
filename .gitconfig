@@ -1,9 +1,6 @@
 [user]
-    #email = mlinuxgada@gmail.com
-    #name = Mihail Krastev
-    #
-	email = mihail.krastev@evobitsit.com
-	name = Mihail Krastev
+    email = mlinuxgada@gmail.com
+    name = Mihail Krastev
 [diff]
 	tool = vimdiff
 [push]
@@ -20,3 +17,5 @@
     insteadOf = https://git.apihawk.tech/
 [url "git@git.evobitsit.com:"]
     insteadOf = https://git.evobitsit.com/
+[pull]
+	rebase = false

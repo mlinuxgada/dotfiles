@@ -59,7 +59,7 @@ bindkey "\eOF" end-of-line
 alias ls="ls -lah"
 alias ll="ls -lh"
 alias emacs='emacs -nw'
-alias tmux="TERM=screen-256color-bce tmux"
+alias tmux="TERM=screen-256color tmux"
 export MYSQL_PS1="mysql (\d)> "
 export TERM="xterm-256color"
 alias xterm="xterm -rv"
@@ -265,3 +265,5 @@ if test -z "${XDG_RUNTIME_DIR}"; then
         chmod 0700 "${XDG_RUNTIME_DIR}"
     fi
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
