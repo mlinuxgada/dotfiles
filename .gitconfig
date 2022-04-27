@@ -19,3 +19,7 @@
     insteadOf = https://git.evobitsit.com/
 [pull]
 	rebase = false
+[alias]
+    #push = push --no-verify
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
