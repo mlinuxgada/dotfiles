@@ -1,3 +1,4 @@
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #------------------------------
 # History stuff
 #------------------------------
@@ -55,6 +56,7 @@ bindkey "\eOF" end-of-line
 #------------------------------
 alias ls="ls -lah"
 alias ll="ls -lh"
+alias python="/usr/bin/python3"
 alias emacs='emacs -nw'
 alias tmux="TERM=screen-256color-bce tmux"
 export MYSQL_PS1="mysql (\d)> "
@@ -66,26 +68,12 @@ alias mysql='mysql -uroot -p --prompt="mysql (\d)> "'
 alias mplayer_hdmi="mplayer -ao alsa:device=hw=0.3 "
 alias mpv_hdmi="mpv -ao=alsa:device='[hw:0,3]' "
 
-# ----- Upshot related gobal vars/aliases
-export MAS_KT="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas-kt"
-export MAS="svn+ssh://mihail@svn.make-a-store.com/home/svn/repos/mp/mas"
-
-alias frodo="ssh misho@masbg.com -p 53022"
-alias dfbsd="ssh mlinuxgada@dev.mlinuxgada.info -p 668"
-alias upshot_databases="mysql -h 174.36.83.133 -u office_readonly"
-
-## aws icn related
-alias aws="aws --endpoint-url https://s3.icnhost.net"
-
-# end of aws icn related
-
-# ----- end of Upshot related aliases
-
 alias jpp='python -m json.tool | pygmentize -l json'
 
 ### Golang related
-export GOPATH=/storage/projects/langs/go
-export PATH=$PATH:$GOPATH/bin
+export GOPATH=$HOME/go
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 #------------------------------
 # ShellFuncs
 #------------------------------
