@@ -1,9 +1,6 @@
 [user]
-    #email = mlinuxgada@gmail.com
-    #name = Mihail Krastev
-    #
-	email = mihail.krastev@evobitsit.com
-	name = Mihail Krastev
+    email = mlinuxgada@gmail.com
+    name = Mihail Krastev
 [diff]
 	tool = vimdiff
 [push]
